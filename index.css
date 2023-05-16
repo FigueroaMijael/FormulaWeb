@@ -568,72 +568,10 @@ p {
         display: none;
     }
 
-    #back {
-        display: block;
-        background-color: whitesmoke;
-        width: 100%;
-        height: 100vh;
-    }
-
 .img__left {
     display: none;
 }
 
-.formulario-login {
-    height: 100vh;
-    width: 70% ;
-    margin: auto;
-    padding: 20px 30px ; 
-}
-
-.container__logo__login .text{
-    width: 100%;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 40px;
-    color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 800;
-    text-shadow: 2px 5px #E00B0B;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.form___p {
-    color: black;
-
-}
-         
-.controls {
-    width: 100%;
-    padding:10px 10px ;
-    margin-bottom: 2rem; 
-    font-size: 14px;
-    font-weight: bold ;
-    border: solid 1px rgba(111, 110, 110, 0.624)
-}
-
-        
-.bottons {
-    width: 100%;
-    height: 40px;
-    border: none;
-    color: white;
-    background: #E00B0B;
-    margin-bottom: 19px;
-    cursor: pointer;
-}
-
-        
-p {
-    margin-bottom: 5px;
-}
-        
-.questions {
-    color: #E00B0B;
-}
 
 }
 
@@ -672,81 +610,13 @@ p {
 
     #back {
         display: grid;
-        background-color: whitesmoke;
-        width: 100%;
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 52% 1% 47%;
-        grid-template-rows: min-content;
-        grid-template-areas:  
-        "img ... form "
     }
 
 .img__left {
-    display: grid;
-    grid-area: img;
+    display: block;
 }
 
-.img__style {
-    width: 100%;
-    height: 100vh;
-}
 
-.formulario-login {
-    height: 100vh;
-    width: 70% ;
-    margin: auto;
-    padding: 20px 30px ; 
-}
-
-.container__logo__login .text{
-    width: 100%;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 40px;
-    color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 800;
-    text-shadow: 2px 5px #E00B0B;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.form___p {
-    color: black;
-
-}
-         
-.controls {
-    width: 100%;
-    padding:10px 10px ;
-    margin-bottom: 2rem; 
-    font-size: 14px;
-    font-weight: bold ;
-    border: solid 1px rgba(111, 110, 110, 0.624)
-}
-
-        
-.bottons {
-    width: 100%;
-    height: 40px;
-    border: none;
-    color: white;
-    background: #E00B0B;
-    margin-bottom: 19px;
-    cursor: pointer;
-}
-
-        
-p {
-    margin-bottom: 5px;
-}
-        
-.questions {
-    color: #E00B0B;
-}
 
 }
 
