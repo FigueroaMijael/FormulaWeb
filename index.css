@@ -568,6 +568,10 @@ p {
         display: none;
     }
 
+    #back {
+        display: block;
+    }
+
 .img__left {
     display: none;
 }
