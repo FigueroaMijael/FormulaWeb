@@ -1,0 +1,125 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container__topbar {
+  width: 100%;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffff;
+}
+.container__topbar .top__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container__topbar .top__bar p {
+  color: #828080;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.container__topbar .top__bar a {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.container__topbar .top__bar a:hover {
+  color: #000000;
+}
+.container__topbar .top__bar__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container__topbar .top__bar__icons i {
+  margin: 0 1.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav__bar {
+  width: 100%;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #DC0000;
+}
+.nav__bar .container__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav__bar .container__logo .text {
+  margin: 1rem;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.nav__bar .container__logo .text:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.nav__bar .nav-main {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav__bar .nav-main .nav__link {
+  margin: 0 2rem;
+  padding: 1.7rem 1.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.nav__bar .nav-main .nav__link a {
+  color: #ffffff;
+}
+.nav__bar .nav-main .nav__link:hover {
+  background-color: #000000;
+}

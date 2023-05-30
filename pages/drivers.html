@@ -16,12 +16,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;600&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  </style>
    
      <!-- BOOTSTRAP -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <!-- ICONOS -->
     <script src="https://kit.fontawesome.com/f89e6c3b49.js" crossorigin="anonymous"></script>
@@ -32,254 +35,466 @@
   <body>
         
 <!-- NAVEGACION -->
-
-<header>
-
-  <section class="container__topbar">
-      <div class="top__bar">
-        <p><a>F1°</a></p>
-        <p><a>F2°</a></p>
-        <p><a>F1°</a></p>
-    </div>
-
-    <div class="top__bar__icons">
-      <a href=""><i class="fa-solid fa-phone-flip fa-bounce" style="color: #ffffff;"></i></a>
-      <a href=""><i class="fa-solid fa-store fa-bounce" style="color: #ffffff;"></i></a>
-      <a href=""><i class="fa-solid fa-globe fa-bounce" style="color: #ffffff;"></i></a>
-      <a href="./login.html"><i class="fa-solid fa-user fa-bounce" style="color: #ffffff;"></i></a>
-
-    </div>
-  </section>
-
-
-
-    <nav class="nav__bar">
-
-        <div class="container__logo"><a href="#"><img class="logo" src="../assets/img/logo-official.jpg" alt=""></a><h1 class="text">FORMULAWEB</h1></div>
-
+    <header>
+      <section class="container__topbar">
+          <div class="top__bar">
+            <p><a>F1°</a></p>
+            <p><a>F2°</a></p>
+            <p><a>F3°</a></p>
+        </div>
+    
+        <div class="top__bar__icons">
+          <a href=""><i class="fa-solid fa-phone-flip fa-bounce" style="color: #000000;"></i></a>
+          <a href=""><i class="fa-solid fa-store fa-bounce" style="color: #000000;"></i></a>
+          <a href=""><i class="fa-solid fa-globe fa-bounce" style="color: #000000;"></i></a>
+          <a href="./login.html"><i class="fa-solid fa-user fa-bounce" style="color: #000000;"></i></a>
+        </div>
+      </section>
+      
+      <nav class="nav__bar">
+        <div class="container__logo"><a href="#"><h1 class="text">FORMULAWEB</h1></a></div>
             <ul class="nav-main">
-                
-                <li class=" nav__link"><a href="../index.html">INICIO</a></li>
-
-                <li class=" nav__link"><a href="./result.html">RESULT</a></li>
-
-                <li class="nav__link mostrar__sub__nav "><a href="">Escuderias</a>
-
-                    <ul class="sub__nav__link">
-
-                        <li><a class="sub__link" href="./drivers.html">Pilotos</a></li>
-
-                        <li><a class="sub__link" href="./teams.html">Equipos</a></li>
-                    </ul>
-            </ul>   
-        </nav> 
-
+              <li class=" nav__link"><a href="../index.html">INICIO</a></li>
+              <li class=" nav__link"><a href="./result.html">RESULT</a></li>
+              <li class=" nav__link"><a href="./drivers.html">PILOTOS</a></li>
+              <li class=" nav__link"><a href="./teams.html">EQUIPOS</a></li>
+            </ul> 
+          </div>      
+      </nav> 
+      
 <!-- NAVEGACION RESPONSIVE -->
-        <nav>
-
-          <section class="container__topbar__responsive">
-
-            <div class="dropdown nav__responsive">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-bars"></i>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
-                <li><a class="dropdown-item" href="./result.html">Resultados</a></li>
-                <li><a class="dropdown-item" href="./drivers.html">Pilotos</a></li>
-                <li><a class="dropdown-item" href="./teams.html">Equipos</a></li>
-              </ul>
-            </div>
+      <nav>
+        <section class="container__topbar__responsive">
+          <div class="dropdown nav__responsive">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+              <li><a class="dropdown-item" href="./result.html">Resultados</a></li>
+              <li><a class="dropdown-item" href="./drivers.html">Pilotos</a></li>
+              <li><a class="dropdown-item" href="./teams.html">Equipos</a></li>
+            </ul>
+          </div>
 
           <div class="container__logo__resposive"><h1 class="text">FORMULAWEB</h1></div>
       
           <div class="top__bar__icons__responsive">
-            <a href="./pages/login.html"><i class="fa-solid fa-user fa-bounce iconos" style="color: #ffffff;"></i></a>
-            <a href=""><i class="fa-solid fa-globe fa-bounce iconos" style="color: #ffffff;"></i></a>
-      
+            <a href="./login.html"><i class="fa-solid fa-user fa-bounce iconos" style="color: #000000;"></i></a>
+            <a href=""><i class="fa-solid fa-globe fa-bounce iconos" style="color: #000000;"></i></a>
           </div>
         </section>
-
-        </nav>
+      </nav>
 </header>
 
-        <main>
-            <article class="contenedor">
+<!-- CARDS -->
 
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
-                    </div>
-                </section>
+<main class="pilotos__container">
+    <div class="pilotos__title"><h2> Pilotos F1 2023</h2></div>
+
+    <section class="pilotos__card__container">
+      <a href="">
+        <section class="pilotos__card">
+            <div class="card__numero">
+                <span class="numero">1</span>
+                <span class="numero">119<br><small class="label">PTS</small></span>
                 
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+            </div>
+            <div class="card__name">
+                <p class="piloto__name"><span class="name__label">Max</span><span class="name__label__1"><br><b>Verstappen</b></span></p>
+                <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg" alt="">
+            </div>
+            <div>
+                <span class="name__team">Red Bull Racing</span>
+            </div>
+
+            <div class="card_img">
+                <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/MAXVER01.png.transform/2col/image.png" alt="">
+                <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col/image.png" alt="">
+            </div>
+            </section> 
+      </a>
+
+            <section class="pilotos__card">
+              <div class="card__numero">
+                  <span class="numero">2</span>
+                  <span class="numero">105<br><small class="label">PTS</small></span>
+                  
+              </div>
+              <div class="card__name">
+                  <p class="piloto__name"><span class="name__label">Sergio</span><span class="name__label__1"><br><b>Perez</b></span></p>
+                  <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Mexico.jpg.transform/2col/image.jpg" alt="">
+              </div>
+              <div>
+                  <span class="name__team">Red Bull Racing</span>
+              </div>
+  
+              <div class="card_img">
+                  <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png.transform/2col/image.png" alt="">
+                  <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/2col/image.png" alt="">
+              </div>
+              </section> 
+
+              <section class="pilotos__card">
+                <div class="card__numero">
+                    <span class="numero">3</span>
+                    <span class="numero">75<br><small class="label">PTS</small></span>
+                    
+                </div>
+                <div class="card__name">
+                    <p class="piloto__name"><span class="name__label">Fernando</span><span class="name__label__1"><br><b>Alonso</b></span></p>
+                    <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg.transform/2col/image.jpg" alt="">
+                </div>
+                <div>
+                    <span class="name__team">Aston Martin</span>
+                </div>
+    
+                <div class="card_img">
+                    <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/FERALO01.png.transform/2col/image.png" alt="">
+                    <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png.transform/2col/image.png" alt="">
+                </div>
+                </section> 
+
+                <section class="pilotos__card">
+                  <div class="card__numero">
+                      <span class="numero">4</span>
+                      <span class="numero">56<br><small class="label">PTS</small></span>
+                      
+                  </div>
+                  <div class="card__name">
+                      <p class="piloto__name"><span class="name__label">Lewis</span><span class="name__label__1"><br><b>Hamilton</b></span></p>
+                      <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg.transform/2col/image.jpg" alt="">
+                  </div>
+                  <div>
+                      <span class="name__team">Mercedes</span>
+                  </div>
+      
+                  <div class="card_img">
+                      <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LEWHAM01.png.transform/2col/image.png" alt="">
+                      <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/2col/image.png">  
+                  </div>
+                  </section> 
+
+                  <section class="pilotos__card">
+                    <div class="card__numero">
+                        <span class="numero">5</span>
+                        <span class="numero">44<br><small class="label">PTS</small></span>
+                        
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+                    <div class="card__name">
+                        <p class="piloto__name"><span class="name__label">Carlos</span><span class="name__label__1"><br><b>Sainz</b></span></p>
+                        <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg.transform/2col/image.jpg" alt="">
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
                     <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+                        <span class="name__team">Ferrari</span>
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
-                    </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
-                    </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
-                    </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
-                    </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
-                    </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
-                    </div>
-                </section>
         
+                    <div class="card_img">
+                        <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CARSAI01.png.transform/2col/image.png" alt="">
+                        <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/2col/image.png" alt="">
+                    </div>
+                    </section> 
+
+                    <section class="pilotos__card">
+                      <div class="card__numero">
+                          <span class="numero">6</span>
+                          <span class="numero">40<br><small class="label">PTS</small></span>
+                          
+                      </div>
+                      <div class="card__name">
+                          <p class="piloto__name"><span class="name__label">George</span><span class="name__label__1"><br><b>Russell</b></span></p>
+                          <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg.transform/2col/image.jpg" alt="">
+                      </div>
+                      <div>
+                          <span class="name__team">Mercedes</span>
+                      </div>
+          
+                      <div class="card_img">
+                          <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GEORUS01.png.transform/2col/image.png" alt="">
+                          <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/2col/image.png" alt="">
+                      </div>
+                      </section> 
+
+                      <section class="pilotos__card">
+                        <div class="card__numero">
+                            <span class="numero">7</span>
+                            <span class="numero">34<br><small class="label">PTS</small></span>
+                            
+                        </div>
+                        <div class="card__name">
+                            <p class="piloto__name"><span class="name__label">Charles</span><span class="name__label__1"><br><b>Leclerc</b></span></p>
+                            <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Monaco.jpg.transform/2col/image.jpg" alt="">
+                        </div>
+                        <div>
+                            <span class="name__team">Ferrari</span>
+                        </div>
             
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section> 
-            
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section> 
-            
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section> 
-            
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section>
-            
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section>
-            
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section>
-            
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section> 
-            
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section>
-            
-            <section class="card">
-                <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                <h3>nombre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                <div>
-                    <a href="#"><i class="btn">conocer mas</i></a>
-                </div>
-            </section>
-            </article>
-            
-        </main>
+                        <div class="card_img">
+                            <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CHALEC01.png.transform/2col/image.png" alt="">
+                            <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/2col/image.png" alt="">
+                        </div>
+                        </section> 
+
+                        <section class="pilotos__card">
+                          <div class="card__numero">
+                              <span class="numero">8</span>
+                              <span class="numero">27<br><small class="label">PTS</small></span>
+                              
+                          </div>
+                          <div class="card__name">
+                              <p class="piloto__name"><span class="name__label">Lance</span><span class="name__label__1"><br><b>Stroll</b></span></p>
+                              <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Canada.jpg.transform/2col/image.jpg" alt="">
+                          </div>
+                          <div>
+                              <span class="name__team">Aston Martin</span>
+                          </div>
+              
+                          <div class="card_img">
+                              <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANSTR01.png.transform/2col/image.png" alt="">
+                              <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png.transform/2col/image.png" alt="">
+                          </div>
+                          </section> 
+
+                          <section class="pilotos__card">
+                            <div class="card__numero">
+                                <span class="numero">9</span>
+                                <span class="numero">10<br><small class="label">PTS</small></span>
+                                
+                            </div>
+                            <div class="card__name">
+                                <p class="piloto__name"><span class="name__label">Lando</span><span class="name__label__1"><br><b>Norris</b></span></p>
+                                <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg.transform/2col/image.jpg" alt="">
+                            </div>
+                            <div>
+                                <span class="name__team">McLaren</span>
+                            </div>
+                
+                            <div class="card_img">
+                                <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANNOR01.png.transform/2col/image.png" alt="">
+                                <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/2col/image.png" alt="">
+                            </div>
+                            </section> 
+
+                            <section class="pilotos__card">
+                              <div class="card__numero">
+                                  <span class="numero">10</span>
+                                  <span class="numero">8<br><small class="label">PTS</small></span>
+                                  
+                              </div>
+                              <div class="card__name">
+                                  <p class="piloto__name"><span class="name__label">Pierre</span><span class="name__label__1"><br><b>Gasly</b></span></p>
+                                  <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/France.jpg.transform/2col/image.jpg" alt="">
+                              </div>
+                              <div>
+                                  <span class="name__team">Alpine</span>
+                              </div>
+                  
+                              <div class="card_img">
+                                  <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/PIEGAS01.png.transform/2col/image.png" alt="">
+                                  <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png.transform/2col/image.png" alt="">
+                              </div>
+                              </section> 
+
+                              <section class="pilotos__card">
+                                <div class="card__numero">
+                                    <span class="numero">11</span>
+                                    <span class="numero">6<br><small class="label">PTS</small></span>
+                                    
+                                </div>
+                                <div class="card__name">
+                                    <p class="piloto__name"><span class="name__label">Nico</span><span class="name__label__1"><br><b>Hulkenberg</b></span></p>
+                                    <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Germany.jpg.transform/2col/image.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span class="name__team">Hass F1 Team</span>
+                                </div>
+                    
+                                <div class="card_img">
+                                    <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/NICHUL01.png.transform/2col/image.png" alt="">
+                                    <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png.transform/2col/image.png" alt="">
+                                </div>
+                                </section> 
+
+                                <section class="pilotos__card">
+                                  <div class="card__numero">
+                                      <span class="numero">12</span>
+                                      <span class="numero">6<br><small class="label">PTS</small></span> 
+                                  </div>
+                                  <div class="card__name">
+                                      <p class="piloto__name"><span class="name__label">Esteban</span><span class="name__label__1"><br><b>Ocon</b></span></p>
+                                      <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/France.jpg.transform/2col/image.jpg" alt="">
+                                  </div>
+                                  <div>
+                                      <span class="name__team">Alpine</span>
+                                  </div>
+                      
+                                  <div class="card_img">
+                                      <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/ESTOCO01.png.transform/2col/image.png" alt="">
+                                      <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png.transform/2col/image.png" alt="">
+                                  </div>
+                                  </section> 
+
+                                  <section class="pilotos__card">
+                                    <div class="card__numero">
+                                        <span class="numero">13</span>
+                                        <span class="numero">4<br><small class="label">PTS</small></span>
+                                        
+                                    </div>
+                                    <div class="card__name">
+                                        <p class="piloto__name"><span class="name__label">Valtteri</span><span class="name__label__1"><br><b>Bottas</b></span></p>
+                                        <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Finland.jpg.transform/2col/image.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <span class="name__team">Alfa Romeo</span>
+                                    </div>
+                        
+                                    <div class="card_img">
+                                        <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/VALBOT01.png.transform/2col/image.png" alt="">
+                                        <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col/image.png" alt="">
+                                    </div>
+                                    </section> 
+
+                                    <section class="pilotos__card">
+                                      <div class="card__numero">
+                                          <span class="numero">14</span>
+                                          <span class="numero">4<br><small class="label">PTS</small></span>
+                                          
+                                      </div>
+                                      <div class="card__name">
+                                          <p class="piloto__name"><span class="name__label">Oscar</span><span class="name__label__1"><br><b>Piastri</b></span></p>
+                                          <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg.transform/2col/image.jpg" alt="">
+                                      </div>
+                                      <div>
+                                          <span class="name__team">McLaren</span>
+                                      </div>
+                          
+                                      <div class="card_img">
+                                          <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/OSCPIA01.png.transform/2col/image.png" alt="">
+                                          <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png.transform/2col/image.png" alt="">
+                                      </div>
+                                      </section> 
+
+                                      <section class="pilotos__card">
+                                        <div class="card__numero">
+                                            <span class="numero">15</span>
+                                            <span class="numero">2<br><small class="label">PTS</small></span>
+                                            
+                                        </div>
+                                        <div class="card__name">
+                                            <p class="piloto__name"><span class="name__label">Guanyu</span><span class="name__label__1"><br><b>Zhou</b></span></p>
+                                            <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/China.jpg.transform/2col/image.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <span class="name__team">Alfa Romeo</span>
+                                        </div>
+                            
+                                        <div class="card_img">
+                                            <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GUAZHO01.png.transform/2col/image.png" alt="">
+                                            <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GUAZHO01_Guanyu_Zhou/guazho01.png.transform/2col/image.png" alt="">
+                                        </div>
+                                        </section> 
+
+                                        <section class="pilotos__card">
+                                          <div class="card__numero">
+                                              <span class="numero">16</span>
+                                              <span class="numero">2<br><small class="label">PTS</small></span>
+                                              
+                                          </div>
+                                          <div class="card__name">
+                                              <p class="piloto__name"><span class="name__label">Yuki</span><span class="name__label__1"><br><b>Tsunoda</b></span></p>
+                                              <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Japan.jpg.transform/2col/image.jpg" alt="">
+                                          </div>
+                                          <div>
+                                              <span class="name__team">AlphaTauri</span>
+                                          </div>
+                              
+                                          <div class="card_img">
+                                              <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/YUKTSU01.png.transform/2col/image.png" alt="">
+                                              <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png.transform/2col/image.png" alt="">
+                                          </div>
+                                          </section> 
+
+                                          <section class="pilotos__card">
+                                            <div class="card__numero">
+                                                <span class="numero">17</span>
+                                                <span class="numero">2<br><small class="label">PTS</small></span>
+                                                
+                                            </div>
+                                            <div class="card__name">
+                                                <p class="piloto__name"><span class="name__label">Kevin</span><span class="name__label__1"><br><b>Magnussen</b></span></p>
+                                                <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Denmark.jpg.transform/2col/image.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <span class="name__team">Haas F1 Team</span>
+                                            </div>
+                                
+                                            <div class="card_img">
+                                                <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/KEVMAG01.png.transform/2col/image.png" alt="">
+                                                <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/K/KEVMAG01_Kevin_Magnussen/kevmag01.png.transform/2col/image.png" alt="">
+                                            </div>
+                                            </section> 
+
+                                            <section class="pilotos__card">
+                                              <div class="card__numero">
+                                                  <span class="numero">18</span>
+                                                  <span class="numero">1<br><small class="label">PTS</small></span>
+                                                  
+                                              </div>
+                                              <div class="card__name">
+                                                  <p class="piloto__name"><span class="name__label">Alexander</span><span class="name__label__1"><br><b>Albon</b></span></p>
+                                                  <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Thailand.jpg.transform/2col/image.jpg" alt="">
+                                              </div>
+                                              <div>
+                                                  <span class="name__team">Williams</span>
+                                              </div>
+                                  
+                                              <div class="card_img">
+                                                  <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/ALEALB01.png.transform/2col/image.png" alt="">
+                                                  <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png.transform/2col/image.png" alt="">
+                                              </div>
+                                              </section> 
+
+                                              <section class="pilotos__card">
+                                                <div class="card__numero">
+                                                    <span class="numero">19</span>
+                                                    <span class="numero">0<br><small class="label">PTS</small></span>
+                                                    
+                                                </div>
+                                                <div class="card__name">
+                                                    <p class="piloto__name"><span class="name__label">Logan</span><span class="name__label__1"><br><b>Sargeant</b></span></p>
+                                                    <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20States.jpg.transform/2col/image.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <span class="name__team">Williams</span>
+                                                </div>
+                                    
+                                                <div class="card_img">
+                                                    <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LOGSAR01.png.transform/2col/image.png" alt="">
+                                                    <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LOGSAR01_Logan_Sargeant/logsar01.png.transform/2col/image.png" alt="">
+                                                </div>
+                                                </section> 
+
+                                                <section class="pilotos__card">
+                                                  <div class="card__numero">
+                                                      <span class="numero">20</span>
+                                                      <span class="numero">0<br><small class="label">PTS</small></span>
+                                                      
+                                                  </div>
+                                                  <div class="card__name">
+                                                      <p class="piloto__name"><span class="name__label">Nyck</span><span class="name__label__1"><br><b>De Vries</b></span></p>
+                                                      <img class="bandera__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg" alt="">
+                                                  </div>
+                                                  <div>
+                                                      <span class="name__team">AlphaTauri</span>
+                                                  </div>
+                                      
+                                                  <div class="card_img">
+                                                      <img class="number__img" src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/NYCDEV01.png.transform/2col/image.png" alt="">
+                                                      <img class="piloto__img" src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NYCDEV01_Nyck_De%20Vries/nycdev01.png.transform/2col/image.png" alt="">
+                                                  </div>
+                                                </section> 
+    </section>
+</main>
 
 <!-- PIE DE PAGINA -->
 <footer class="footer__container">

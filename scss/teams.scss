@@ -1,0 +1,84 @@
+.team__container {
+    width: 100%;
+    .team__title {
+        padding: 2rem;
+        margin: 2rem 1rem;
+        border-top: .6rem solid black;
+        border-right: .6rem solid black;
+        border-radius: 15px;
+    
+
+        h2{
+            font-size: 5rem;
+            font-weight: bold;
+            font-family: 'Anton', sans-serif;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.team__card__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .team__card {
+        width: 550px;
+        height: 300px;
+        border-radius: 10px;
+        border-top: 5px solid black;
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+        background-color: rgb(218, 218, 218);
+        margin: 1.5rem;
+
+        .team__card__numero {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .numero {
+                padding: 1.3rem;
+                margin: 0 10px;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                color: black;
+            }
+
+            .label {
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                padding: .3rem .9rem;
+            }
+            }
+    }
+    .team__card__name {
+        display: flex;
+        justify-content: space-between;
+
+        .logo__team__img {
+            width: 4rem;
+            height: 3rem;
+            border-radius: 10px;
+            margin: 10px 1rem;
+        }
+
+        .team__name {
+            margin: 10px 1rem;
+            color: black;
+        }
+    }
+
+    .team__card__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}

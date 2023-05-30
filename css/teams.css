@@ -1,0 +1,98 @@
+.team__container {
+  width: 100%;
+}
+.team__container .team__title {
+  padding: 2rem;
+  margin: 2rem 1rem;
+  border-top: 0.6rem solid black;
+  border-right: 0.6rem solid black;
+  border-radius: 15px;
+}
+.team__container .team__title h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+}
+
+.team__card__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.team__card__container .team__card {
+  width: 550px;
+  height: 300px;
+  border-radius: 10px;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  background-color: rgb(218, 218, 218);
+  margin: 1.5rem;
+}
+.team__card__container .team__card .team__card__numero {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.team__card__container .team__card .team__card__numero .numero {
+  padding: 1.3rem;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+.team__card__container .team__card .team__card__numero .label {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.3rem 0.9rem;
+}
+.team__card__container .team__card__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.team__card__container .team__card__name .logo__team__img {
+  width: 4rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin: 10px 1rem;
+}
+.team__card__container .team__card__name .team__name {
+  margin: 10px 1rem;
+  color: black;
+}
+.team__card__container .team__card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}

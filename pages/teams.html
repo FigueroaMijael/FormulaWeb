@@ -14,14 +14,17 @@
 
     <!--FONT OSWALD-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;600&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;600&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+      </style>
    
      <!-- BOOTSTRAP -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <!-- ICONOS -->
     <script src="https://kit.fontawesome.com/f89e6c3b49.js" crossorigin="anonymous"></script>
@@ -30,173 +33,255 @@
 
 
   <body>
+    <!-- NAVEGACION -->
+    <header>
+        <section class="container__topbar">
+            <div class="top__bar">
+              <p><a>F1°</a></p>
+              <p><a>F2°</a></p>
+              <p><a>F3°</a></p>
+          </div>
+      
+          <div class="top__bar__icons">
+            <a href=""><i class="fa-solid fa-phone-flip fa-bounce" style="color: #000000;"></i></a>
+            <a href=""><i class="fa-solid fa-store fa-bounce" style="color: #000000;"></i></a>
+            <a href=""><i class="fa-solid fa-globe fa-bounce" style="color: #000000;"></i></a>
+            <a href="./login.html"><i class="fa-solid fa-user fa-bounce" style="color: #000000;"></i></a>
+          </div>
+        </section>
         
-<!-- NAVEGACION -->
-
-<header>
-
-  <section class="container__topbar">
-      <div class="top__bar">
-        <p><a>F1°</a></p>
-        <p><a>F2°</a></p>
-        <p><a>F1°</a></p>
-    </div>
-
-    <div class="top__bar__icons">
-      <a href=""><i class="fa-solid fa-phone-flip fa-bounce" style="color: #ffffff;"></i></a>
-      <a href=""><i class="fa-solid fa-store fa-bounce" style="color: #ffffff;"></i></a>
-      <a href=""><i class="fa-solid fa-globe fa-bounce" style="color: #ffffff;"></i></a>
-      <a href="./login.html"><i class="fa-solid fa-user fa-bounce" style="color: #ffffff;"></i></a>
-
-    </div>
-  </section>
-
-
-
-    <nav class="nav__bar">
-
-        <div class="container__logo"><a href="#"><img class="logo" src="../assets/img/logo-official.jpg" alt=""></a><h1 class="text">FORMULAWEB</h1></div>
-
-            <ul class="nav-main">
-                
+        <nav class="nav__bar">
+          <div class="container__logo"><a href="#"><h1 class="text">FORMULAWEB</h1></a></div>
+              <ul class="nav-main">
                 <li class=" nav__link"><a href="../index.html">INICIO</a></li>
-
                 <li class=" nav__link"><a href="./result.html">RESULT</a></li>
-
-                <li class="nav__link mostrar__sub__nav "><a href="">Escuderias</a>
-
-                    <ul class="sub__nav__link">
-
-                        <li><a class="sub__link" href="./rivers.html">Pilotos</a></li>
-
-                        <li><a class="sub__link" href="./teams.html">Equipos</a></li>
-                    </ul>
-            </ul>   
+                <li class=" nav__link"><a href="./drivers.html">PILOTOS</a></li>
+                <li class=" nav__link"><a href="./teams.html">EQUIPOS</a></li>
+              </ul> 
+            </div>      
         </nav> 
-
-<!-- NAVEGACION RESPONSIVE -->
+        
+  <!-- NAVEGACION RESPONSIVE -->
         <nav>
-
           <section class="container__topbar__responsive">
-
             <div class="dropdown nav__responsive">
               <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-bars"></i>
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
-                <li><a class="dropdown-item" href=".result.html">Resultados</a></li>
+                <li><a class="dropdown-item" href="./result.html">Resultados</a></li>
                 <li><a class="dropdown-item" href="./drivers.html">Pilotos</a></li>
                 <li><a class="dropdown-item" href="./teams.html">Equipos</a></li>
               </ul>
             </div>
-
-          <div class="container__logo__resposive"><h1 class="text">FORMULAWEB</h1></div>
-      
-          <div class="top__bar__icons__responsive">
-            <a href="./pages/login.html"><i class="fa-solid fa-user fa-bounce iconos" style="color: #ffffff;"></i></a>
-            <a href=""><i class="fa-solid fa-globe fa-bounce iconos" style="color: #ffffff;"></i></a>
-      
-          </div>
-        </section>
-
+  
+            <div class="container__logo__resposive"><h1 class="text">FORMULAWEB</h1></div>
+        
+            <div class="top__bar__icons__responsive">
+              <a href="./login.html"><i class="fa-solid fa-user fa-bounce iconos" style="color: #000000;"></i></a>
+              <a href=""><i class="fa-solid fa-globe fa-bounce iconos" style="color: #000000;"></i></a>
+            </div>
+          </section>
         </nav>
-</header>
+  </header>
 
 <!-- MAIN PRIN -->
 
-        <main>
-            <article class="contenedor">
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+        <main class="team__container">
+            <div class="team__title"><h2> Equipos F1 2023</h2></div>
+
+            <section class="team__card__container">
+              <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">1</span>
+                        <span class="numero">224<br><small class="label">PTS</small></span> 
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>Red Bull Racing</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/red-bull-racing-logo.png.transform/2col/image.png" alt="">
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/red-bull-racing.png.transform/4col/image.png" alt="">
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+                </section> 
+            </a>
+
+           <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">2</span>
+                        <span class="numero">102<br><small class="label">PTS</small></span> 
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>Aston Martin</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/aston-martin-logo.png.transform/2col/image.png" alt="">
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/aston-martin.png.transform/4col/image.png" alt="">
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+                </section> 
+            </a>
+
+            <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">3</span>
+                        <span class="numero">96<br><small class="label">PTS</small></span> 
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>Mercedes</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/mercedes-logo.png.transform/2col/image.png" alt="">
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/mercedes.png.transform/4col/image.png" alt="">
                     </div>
-                </section>
-                
-                <section class="card">
-                    <img src="..//img/hombre-gris-del-placeholder-de-la-foto-persona-en-camiseta-el-fondo-blanco-147541161.jpg" alt="">
-                    <h3>nombre</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus.</p>
-                    <div>
-                        <a href="#"><i class="btn">conocer mas</i></a>
+                </section> 
+            </a>
+
+            <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">4</span>
+                        <span class="numero">78<br><small class="label">PTS</small></span> 
                     </div>
-                </section>
-            </article>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b></b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/ferrari-logo.png.transform/2col/image.png" alt="">
+                    </div>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/ferrari.png.transform/4col/image.png" alt="">
+                    </div>
+                </section> 
+            </a>
+
+            <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">5</span>
+                        <span class="numero">14<br><small class="label">PTS</small></span> 
+                    </div>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>McLaren</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/mclaren-logo.png.transform/2col/image.png" alt="">
+                    </div>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/mclaren.png.transform/4col/image.png" alt="">
+                    </div>
+                </section> 
+            </a>
+
+            <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">6</span>
+                        <span class="numero">14<br><small class="label">PTS</small></span> 
+                    </div>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>Alpine</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/alpine-logo.png.transform/2col/image.png" alt="">
+                    </div>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/alpine.png.transform/4col/image.png" alt="">
+                    </div>
+                </section> 
+            </a>
+
+            <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">7</span>
+                        <span class="numero">8<br><small class="label">PTS</small></span> 
+                    </div>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>Haas F1 Team</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/haas-f1-team-logo.png.transform/2col/image.png" alt="">
+                    </div>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/haas-f1-team.png.transform/4col/image.png" alt="">
+                    </div>
+                </section> 
+            </a>
+
+
+            <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">8</span>
+                        <span class="numero">6<br><small class="label">PTS</small></span> 
+                    </div>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>Alfa Romeo</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/alfa-romeo-logo.png.transform/2col/image.png" alt="">
+                    </div>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/alfa-romeo.png.transform/4col/image.png" alt="">
+                    </div>
+                </section> 
+            </a>
+
+            <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">9</span>
+                        <span class="numero">2<br><small class="label">PTS</small></span> 
+                    </div>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>AlphaTauri</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/alphatauri-logo.png.transform/2col/image.png" alt="">
+                    </div>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/alphatauri.png.transform/4col/image.png" alt="">
+                    </div>
+                </section> 
+            </a>
+
+            <a href="">
+                <section class="team__card">
+                    <div class="team__card__numero">
+                        <span class="numero">10</span>
+                        <span class="numero">1<br><small class="label">PTS</small></span> 
+                    </div>
+
+                    <div class="team__card__name">
+                        <p class="team__name"><span class="team__name__label"><b>Williams</b></span></p>
+                        <img class= "logo__team__img" src="https://media.formula1.com/content/dam/fom-website/teams/2023/williams-logo.png.transform/2col/image.png" alt="">
+                    </div>
+                   
+        
+                    <div class="team__card__img">
+                        <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/williams.png.transform/4col/image.png" alt="">
+                    </div>
+                </section> 
+            </a>
         </main>
 
 <!-- PIE DE PAGINA -->
