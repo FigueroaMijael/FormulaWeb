@@ -752,9 +752,9 @@ body {
   background-color: whitesmoke;
   margin-left: 2rem;
   padding-top: 2rem;
-  border-top: solid 8px #fa4b00;
-  border-right: solid 8px #fa4b00;
-  border-bottom: solid 8px #fa4b00;
+  border-top: solid 8px #E00B0B;
+  border-right: solid 8px #E00B0B;
+  border-bottom: solid 8px #E00B0B;
   border-radius: 7px;
 }
 .grillas .container__main .calendar__container .calendar__content {
@@ -785,7 +785,7 @@ body {
   font-size: 13px;
 }
 .grillas .container__main .calendar__container .calendar__content .calendar__row .calendar__cell .anuncio {
-  color: #DC0000;
+  color: #E00B0B;
   font-size: 13px;
 }
 .grillas .container__main .container__calendar__header {
