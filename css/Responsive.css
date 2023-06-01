@@ -1,5 +1,5 @@
 /* ---------- TABLET ----------  */
-@media screen and (min-width: 425px) and (max-width: 1100px) {
+@media screen and (min-width: 425px) and (max-width: 1000px) {
   .container__topbar {
     display: none;
   }
@@ -121,7 +121,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
 }
-@media screen and (min-width: 1101px) and (max-width: 1400px) {
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
   #aside__responsive .container__topbar {
     width: 100%;
     display: -webkit-box;
