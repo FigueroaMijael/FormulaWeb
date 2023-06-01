@@ -97,11 +97,8 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        
-
-
     }
-
+}
 
 
 
@@ -109,75 +106,45 @@
 
 /* ---------- DESKTOP ----------  */
 @media screen and (min-width: 1001px) and (max-width: 1400px) {
-    .container__topbar {
-        width: 100%;
-        display: flex;
-    }
-    .nav__bar {
-        width: 100%;
-        display: flex;
-    }
     .container__topbar__responsive {
         display: none;
-    }
-    .nav__responsive {
-        display: none;
-    }
-    .container__main__responsivde {
-        display: none;}
-
-    .grillas {
-        width: 100%;
-        display: grid;
-    }
-
-    .aside__container__bar {
-        display: flex;
-    }
-    #back {
-        width: 100%;
-        display: grid;
-    }
-    .img__left {
-    display: block;
-    }
-}
-
-
-/* ---------- XXL ----------  */
-@media screen and (min-width: 1401px) {
-    .container__topbar {
-        width: 100%;
-        display: flex;
-    }
-    .nav__bar {
-        width: 100%;
-        display: flex;
-    }
-    .container__topbar__responsive {
-        display: none;
-    }
-    .nav__responsive {
-        display: none;
-    }
-    .container__main__responsivde {
-        display: none;}
-    .grillas {
-        width: 100%;
-        display: grid;
-    }
-    .aside__bar {
-        width: 100%;
+        }
+    
+        .nav__responsive {
+            display: none;
+        }
+    
+        .container__logo__responsive {
+            display: none;
+        }
+    
+        .top__bar__icons__responsive {
+            display: none;
+        }
+    
+        .container__topbar {
+            width: 100%;
+            display: flex;
+        }
+        .nav__bar {
+            width: 100%;
+            display: flex;
+        }
+    
+        .grillas {
+            width: 100%;
+            display: grid;
+        }
+    
+        .aside__container__bar {
+            display: flex;
+        }
+        #back {
+            width: 100%;
+            display: grid;
+        }
+        .img__left {
         display: block;
-    }
-    #back {
-        width: 100%;
-        display: grid;
-    }
-    .img__left {
-    display: block;
-    }
+        }
 
-} 
-    }
-
+}

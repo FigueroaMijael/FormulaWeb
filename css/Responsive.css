@@ -81,8 +81,6 @@
 #aside__responsive {
   width: 100%;
   display: block;
-  /* ---------- DESKTOP ----------  */
-  /* ---------- XXL ----------  */
 }
 #aside__responsive .container__bar {
   display: -webkit-box;
@@ -121,80 +119,47 @@
       -ms-flex-direction: row;
           flex-direction: row;
 }
+
+/* ---------- DESKTOP ----------  */
 @media screen and (min-width: 1001px) and (max-width: 1400px) {
-  #aside__responsive .container__topbar {
+  .container__topbar__responsive {
+    display: none;
+  }
+  .nav__responsive {
+    display: none;
+  }
+  .container__logo__responsive {
+    display: none;
+  }
+  .top__bar__icons__responsive {
+    display: none;
+  }
+  .container__topbar {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  #aside__responsive .nav__bar {
+  .nav__bar {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  #aside__responsive .container__topbar__responsive {
-    display: none;
-  }
-  #aside__responsive .nav__responsive {
-    display: none;
-  }
-  #aside__responsive .container__main__responsivde {
-    display: none;
-  }
-  #aside__responsive .grillas {
+  .grillas {
     width: 100%;
     display: grid;
   }
-  #aside__responsive .aside__container__bar {
+  .aside__container__bar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  #aside__responsive #back {
+  #back {
     width: 100%;
     display: grid;
   }
-  #aside__responsive .img__left {
-    display: block;
-  }
-}
-@media screen and (min-width: 1401px) {
-  #aside__responsive .container__topbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #aside__responsive .nav__bar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #aside__responsive .container__topbar__responsive {
-    display: none;
-  }
-  #aside__responsive .nav__responsive {
-    display: none;
-  }
-  #aside__responsive .container__main__responsivde {
-    display: none;
-  }
-  #aside__responsive .grillas {
-    width: 100%;
-    display: grid;
-  }
-  #aside__responsive .aside__bar {
-    width: 100%;
-    display: block;
-  }
-  #aside__responsive #back {
-    width: 100%;
-    display: grid;
-  }
-  #aside__responsive .img__left {
+  .img__left {
     display: block;
   }
 }
