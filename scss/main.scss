@@ -6,7 +6,7 @@
 @import "./pilotos.scss";
 @import "./teams.scss";
 @import "./404.scss";
-@import "./Responsive.scss";
+@import "./responsive.scss";
 
 body {
     overflow-x: hidden;
@@ -14,7 +14,7 @@ body {
 
 .carousel-inner {
     width: 100%;
-    margin: 2rem 0;
+    margin-bottom: 1rem;
         .carousel-item {
         width: 100%;
         height: 550px;
@@ -35,11 +35,11 @@ body {
 .grillas {
     width: 100%;
     display: grid;
-    grid-template-columns: 35% 30% 5% 25%;
+    grid-template-columns: 65% 2% 33%;
     grid-template-rows: auto;
     gap: 1rem;
     grid-template-areas: 
-    "calendario calendario barralateral barralateral";
+    "calendario ... barralateral";
     .container__main {
         width: 100%;
         border-radius: 5px ;
@@ -111,7 +111,6 @@ body {
     }
     .container__bar {
         display: flex;
-        height: 300px;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -123,7 +122,7 @@ body {
             border-radius: 8px;
             border-bottom: 2px solid gray;
             border-right: 2px solid gray;
-            margin: 11px 0;
+            margin: 1rem;
 
             text-align: center;
             transition: all 0.25s;
@@ -144,7 +143,7 @@ body {
                 text-transform: uppercase;
             }
             img {
-                width: 305px;
+                width: min-content;
                 height: 200px;
                 background-position: center;
                 background-size: cover;
@@ -160,63 +159,57 @@ body {
 }
 
 .card__grid {
-    h2 {
-        color: #E00B0B;    
+    width: 100%;
+    .card__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card__title {
+        margin: 1rem 2rem;
+        color: $color-rojito;    
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bold;
-        margin: 1rem 2rem
+    }
+    .card__bar {
+        width: min-content;
+        height: 380px;
+        background-color: whitesmoke;
+        border-radius: 8px;
+        border-bottom: 2px solid gray;
+        border-right: 2px solid gray;
+        margin: 1rem;
+        text-align: center;
+        transition: all 0.25s;
+
+        a{
+            color: #000000;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            border-bottom: 2px solid red;
+            border-right: 2px solid red;
+        }
+        h3 {
+            margin:.8rem 0;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        img {
+            width: 295px;
+            height: 200px;
+            background-position: center;
+            background-size: cover;
+        }
+        p {
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: 300;
+            text-transform: uppercase;
+        }           
     }
 }
 
-.card__container {
-    display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: auto;
-    gap: 1rem;
-    grid-template-areas: 
-    "fr1 fr2 fr3 fr4"
-    ;
-    margin: 1rem 1rem;
-            .card__bar {
-                width: 100%;
-                background-color: whitesmoke;
-                border-radius: 8px;
-                border-bottom: 2px solid gray;
-                border-right: 2px solid gray;
-                margin: 0 8px;
-                text-align: center;
-                transition: all 0.25s;
-                .fr1{ grid-area: fr1;}
-                .fr2 {grid-area: fr2;}
-                .fr3 {grid-area: fr3;}
-                .fr4 {grid-area: fr4;}
-    
-                a{
-                    color: #000000;
-                }
-                
-                &:hover {
-                    transform: scale(1.05);
-                    border-bottom: 2px solid red;
-                    border-right: 2px solid red;
-                }
-    
-                h3 {
-                    margin:.8rem 0;
-                    font-size: 1rem;
-                    font-weight: 600;
-                    text-transform: uppercase;
-                }
-                img {
-                    width: 100%;
-                    height: 200px;
-                    background-position: center;
-                    background-size: cover;
-                }
-                p {
-                    font-size: 1rem;
-                    font-weight: 300;
-                }
-            }
-        }

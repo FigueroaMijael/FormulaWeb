@@ -1,5 +1,9 @@
-@media screen and (min-width: 480px) {
+/* ---------- TABLET ----------  */
+@media screen and (min-width: 425px) and (max-width: 1100px) {
   .container__topbar {
+    display: none;
+  }
+  .nav__bar {
     display: none;
   }
   .container__topbar__responsive {
@@ -12,9 +16,6 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     background-color: #DC0000;
-  }
-  .nav__bar {
-    display: none;
   }
   .top__bar__icons__responsive {
     display: -webkit-box;
@@ -46,125 +47,154 @@
             align-items: center;
   }
   .grillas {
-    display: block;
-    width: 100%;
-  }
-  .container__main {
-    width: 100%;
-    border-radius: 5px;
-  }
-  .aside__bar {
     display: none;
   }
-  #back {
-    display: block;
-  }
-  .img__left {
-    display: none;
-  }
-}
-@media screen and (min-width: 760px) {
-  .container__topbar {
-    display: none;
-  }
-  .container__topbar__responsive {
-    width: 100%;
-    height: 4rem;
+  #grillas__responsive {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background-color: #DC0000;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .nav__bar {
-    display: none;
+  #grillas__responsive .calendar__container {
+    margin-left: 0;
+    border: solid 8px #E00B0B;
   }
-  .top__bar__icons__responsive {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  #grillas__responsive .container__calendar__header {
+    margin-left: 3rem;
+    background-color: whitesmoke;
+    font-weight: 1000;
+    color: #E00B0B;
+    font-size: 1.5rem;
+    position: absolute;
   }
-  .container__topbar__responsive .iconos {
-    margin: 0 0.7rem;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  .container__topbar__responsive .text {
-    color: whitesmoke;
-    font-family: "Poppins", sans-serif;
-    font-size: 40px;
+  #grillas__responsive .container__calendar__header p {
     text-transform: uppercase;
-    font-weight: 800;
-    text-shadow: 2px 5px #DC0000;
-  }
-  .nav__responsive {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .grillas {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-  }
-  .container__main {
-    width: 100%;
-    border-radius: 5px;
-  }
-  .aside__bar {
-    display: none;
-  }
-  #back {
-    display: block;
-  }
-  .img__left {
-    display: none;
   }
 }
-@media screen and (min-width: 1024px) {
-  .container__topbar {
+.aside__container__bar {
+  display: none;
+}
+
+#aside__responsive {
+  width: 100%;
+  display: block;
+  /* ---------- DESKTOP ----------  */
+  /* ---------- XXL ----------  */
+}
+#aside__responsive .container__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#aside__responsive .container__bar h2 {
+  color: #E00B0B;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#aside__responsive .card__grid {
+  display: none;
+}
+#aside__responsive #card__responsive {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+@media screen and (min-width: 1101px) and (max-width: 1400px) {
+  #aside__responsive .container__topbar {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .nav__bar {
+  #aside__responsive .nav__bar {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .container__topbar__responsive {
+  #aside__responsive .container__topbar__responsive {
     display: none;
   }
-  .nav__responsive {
+  #aside__responsive .nav__responsive {
     display: none;
   }
-  .container__main__responsivde {
+  #aside__responsive .container__main__responsivde {
     display: none;
   }
-  .grillas {
+  #aside__responsive .grillas {
     width: 100%;
     display: grid;
   }
-  .aside__bar {
+  #aside__responsive .aside__container__bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #aside__responsive #back {
+    width: 100%;
+    display: grid;
+  }
+  #aside__responsive .img__left {
+    display: block;
+  }
+}
+@media screen and (min-width: 1401px) {
+  #aside__responsive .container__topbar {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #aside__responsive .nav__bar {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #aside__responsive .container__topbar__responsive {
+    display: none;
+  }
+  #aside__responsive .nav__responsive {
+    display: none;
+  }
+  #aside__responsive .container__main__responsivde {
+    display: none;
+  }
+  #aside__responsive .grillas {
+    width: 100%;
+    display: grid;
+  }
+  #aside__responsive .aside__bar {
     width: 100%;
     display: block;
   }
-  #back {
+  #aside__responsive #back {
     width: 100%;
     display: grid;
   }
-  .img__left {
+  #aside__responsive .img__left {
     display: block;
   }
 }

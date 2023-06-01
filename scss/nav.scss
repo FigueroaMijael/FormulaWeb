@@ -18,6 +18,8 @@ li {
     justify-content: space-between;
     background-color: #ffffff;
 
+
+
     .top__bar {
         display: flex;
         align-items: center;
@@ -61,6 +63,7 @@ li {
     justify-content: center;
     background-color: #DC0000;
 
+
     .container__logo {
         display: flex;
         align-items: center;
@@ -88,8 +91,7 @@ li {
         align-items: center;
 
         .nav__link  {
-            margin: 0 2rem;
-            padding: 1.7rem 1.8rem;
+            padding: 1.7rem 4rem;
             text-transform: uppercase;
             font-weight: 500;
             cursor: pointer;
@@ -104,4 +106,5 @@ li {
             }
         }
     }
+    
 }

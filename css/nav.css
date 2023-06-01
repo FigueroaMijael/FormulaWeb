@@ -109,8 +109,7 @@ li {
           align-items: center;
 }
 .nav__bar .nav-main .nav__link {
-  margin: 0 2rem;
-  padding: 1.7rem 1.8rem;
+  padding: 1.7rem 4rem;
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
