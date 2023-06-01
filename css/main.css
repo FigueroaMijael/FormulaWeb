@@ -493,7 +493,7 @@ li {
   margin: 0 auto;
 }
 
-/* ---------- TABLET ----------  */
+/* ---------- TABLET and MOBILE ----------  */
 @media screen and (min-width: 425px) and (max-width: 1000px) {
   .container__topbar {
     display: none;
@@ -618,15 +618,6 @@ li {
 /* ---------- DESKTOP ----------  */
 @media screen and (min-width: 1001px) and (max-width: 1400px) {
   .container__topbar__responsive {
-    display: none;
-  }
-  .nav__responsive {
-    display: none;
-  }
-  .container__logo__responsive {
-    display: none;
-  }
-  .top__bar__icons__responsive {
     display: none;
   }
   .container__topbar {

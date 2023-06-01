@@ -125,15 +125,6 @@
   .container__topbar__responsive {
     display: none;
   }
-  .nav__responsive {
-    display: none;
-  }
-  .container__logo__responsive {
-    display: none;
-  }
-  .top__bar__icons__responsive {
-    display: none;
-  }
   .container__topbar {
     width: 100%;
     display: -webkit-box;
