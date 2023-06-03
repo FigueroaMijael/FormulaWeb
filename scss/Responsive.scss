@@ -1,6 +1,5 @@
-
-/* ---------- TABLET and MOBILE ----------  */
-@media screen and (min-width: 425px) and (max-width: 1000px) {
+/* ---------- MOBILE ----------  */
+@media screen and (min-width:425px) and (max-width: 500px){
     .container__topbar {
         display: none;
     }
@@ -66,7 +65,7 @@
             }
         }
     }
-}
+
 
     .aside__container__bar {
         display: none;
@@ -89,15 +88,117 @@
         }
     }
 
-    .card__grid {
+    .back {
+        width: 100%;
+        display: block;
+        .img__left {
+            display: none;
+        }
+    }
+}
+}
+
+
+
+/* ---------- TABLET ----------  */
+@media screen and (min-width: 501px) and (max-width: 980px) {
+    .container__topbar {
         display: none;
     }
 
-    #card__responsive {
+    .nav__bar {
+        display: none;
+    }
+
+
+    .container__topbar__responsive {
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: #DC0000;
+    }
+
+    .top__bar__icons__responsive {
+        display: flex;
+        align-items: center;
+    }
+
+    .container__topbar__responsive .iconos {
+        margin: 0 .7rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .container__topbar__responsive .text {
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 800; 
+        text-shadow: 2px 5px #DC0000;
+    }
+
+    .nav__responsive {
+        display: flex;
+        align-items: center;
+    }
+
+    .grillas {
+        display: none;
+    }
+
+    #grillas__responsive {
+        display: flex;
+        flex-direction: column; 
+        .calendar__container {
+            margin-left: 0;
+            border: solid 8px #E00B0B;
+        }
+        .container__calendar__header {
+            margin-left: 3rem;                                                                                                                                                                                                                                                                                                                                                                             
+            background-color: whitesmoke;
+            font-weight: 1000;
+            color: #E00B0B;
+            font-size: 1.5rem;
+            position: absolute;
+            p {
+                text-transform: uppercase
+            }
+        }
+    }
+
+
+    .aside__container__bar {
+        display: none;
+    }
+
+    #aside__responsive {
+        width: 100%;
+        display: block;
+        .container__bar {
+        display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        h2 {
+            color: #E00B0B;    
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+        }
     }
+}
+
+
+.back {
+    width: 100%;
+    display: block;
+    .img__left {
+        display: none;
+    }
+}
 }
 
 
@@ -105,35 +206,32 @@
 
 
 /* ---------- DESKTOP ----------  */
-@media screen and (min-width: 1001px) and (max-width: 1400px) {
+@media screen and (min-width: 981px) and (max-width: 1400px) {
+    .container__topbar {
+        width: 100%;
+        display: flex;
+    }
+    .nav__bar {
+        width: 100%;
+        display: flex;
+    }
     .container__topbar__responsive {
         display: none;
-        }
-    
-    
-        .container__topbar {
-            width: 100%;
-            display: flex;
-        }
-        .nav__bar {
-            width: 100%;
-            display: flex;
-        }
-    
-        .grillas {
-            width: 100%;
-            display: grid;
-        }
-    
-        .aside__container__bar {
-            display: flex;
-        }
-        #back {
-            width: 100%;
-            display: grid;
-        }
-        .img__left {
-        display: block;
-        }
+    }
+    .nav__responsive {
+        display: none;
+    }
+    .container__main__responsivde {
+        display: none;}
+    .grillas {
+        width: 100%;
+        display: grid;
+    }
 
+    .grillas__responsive {
+        display: none;
+    }
+    .aside__container__bar {
+        display: flex;
+    }
 }
