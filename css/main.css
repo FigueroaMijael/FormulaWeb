@@ -479,14 +479,14 @@ li {
           flex-direction: row;
 }
 .team__card__container .team__card {
-  width: 550px;
+  width: 500px;
   height: 300px;
   border-radius: 10px;
   border-top: 5px solid black;
   border-right: 5px solid black;
   border-bottom: 5px solid black;
   background-color: rgb(218, 218, 218);
-  margin: 1.5rem;
+  margin: 1.5rem 0;
 }
 .team__card__container .team__card .team__card__numero {
   width: 100%;
