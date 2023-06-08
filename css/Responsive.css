@@ -109,6 +109,20 @@
   #aside__responsive .back .img__left {
     display: none;
   }
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__container .footer__logo {
+    width: 100%;
+  }
+  .footer__container .footer__logo .border1 {
+    display: none;
+  }
+  .footer__container .footer__logo .border2 {
+    display: none;
+  }
 }
 /* ---------- TABLET ----------  */
 @media screen and (min-width: 501px) and (max-width: 980px) {
@@ -176,7 +190,6 @@
   }
   #grillas__responsive .container__calendar__header {
     margin-left: 3rem;
-    background-color: whitesmoke;
     font-weight: 1000;
     color: #E00B0B;
     font-size: 1.5rem;
@@ -220,6 +233,22 @@
   }
   .back .img__left {
     display: none;
+  }
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__container .footer__logo {
+    width: 100%;
+  }
+  .footer__container .footer__logo .border1 {
+    padding-left: 10vh;
+    border-bottom: 2px solid #ffffff;
+  }
+  .footer__container .footer__logo .border2 {
+    padding-right: 10vh;
+    border-bottom: 2px solid #ffffff;
   }
 }
 /* ---------- DESKTOP ----------  */

@@ -96,6 +96,19 @@
         }
     }
 }
+
+.footer__container {
+    display: flex;
+    .footer__logo {
+        width: 100%;
+        .border1 {
+            display: none;
+        }
+        .border2 {
+            display: none;
+        }
+    }
+}
 }
 
 
@@ -156,8 +169,7 @@
             border: solid 8px #E00B0B;
         }
         .container__calendar__header {
-            margin-left: 3rem;                                                                                                                                                                                                                                                                                                                                                                             
-            background-color: whitesmoke;
+            margin-left: 3rem;
             font-weight: 1000;
             color: #E00B0B;
             font-size: 1.5rem;
@@ -197,6 +209,21 @@
     display: block;
     .img__left {
         display: none;
+    }
+}
+
+.footer__container {
+    display: flex;
+    .footer__logo {
+        width: 100%;
+        .border1 {
+            padding-left:10vh;
+            border-bottom: 2px solid #ffffff;
+        }
+        .border2 {
+            padding-right: 10vh;
+            border-bottom: 2px solid #ffffff;
+        }
     }
 }
 }

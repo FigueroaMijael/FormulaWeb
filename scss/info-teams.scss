@@ -1,0 +1,451 @@
+.container__main {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0 40px;
+    .container__content {
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 19% 25% 28% 28%;
+        grid-template-rows: auto;
+        gap: 1px;
+        grid-template-areas: 
+        "imagecero imagecero imageuno imagedos"
+        "textuno textdos imageuno imagedos";
+        
+        .figure__container__uno {
+            grid-area: imagecero;
+            width: min-content;
+            height: min-content;
+            .image__cero {
+                width: 100vh;
+                max-width: 520px;
+                height: 300px;
+            }
+            .figure__title {
+                text-align: center;
+                color: #0000ff;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__1 {
+                text-align: center;
+                color: #119b4b;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__2 {
+                text-align: center;
+                color: #00ffc3;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__3 {
+                text-align: center;
+                color: #ff0000;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__4 {
+                text-align: center;
+                color: #ff9100;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__5 {
+                text-align: center;
+                color: #0088ff;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__6 {
+                text-align: center;
+                color: #a3a3a3;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__7 {
+                text-align: center;
+                color: #870000;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__8 {
+                text-align: center;
+                color: #4e4eed;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .figure__title__9 {
+                text-align: center;
+                color: #00a6ff;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+        }
+        .content__text__uno {
+            grid-area: textuno;
+            .text__uno {
+                padding-left: 1.5rem;
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .content__text__dos {
+            grid-area: textdos;
+            padding-left: 1.5rem;
+            .text__dos {
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        }
+        .figure__container__dos {
+            grid-area: imageuno;
+            .image__uno {
+                width: 100%;
+                height: 550px;
+            }
+            .efecto__hover {
+                width: 100%;
+                height: 200px;
+                cursor: pointer;
+                transition: 1s;
+                &:hover {
+                    background-color: rgb(17, 17, 17);
+                    color: white;
+                }
+            }
+            .figure__number {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #0000ff;
+            }
+            .figure__number__1 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #119b4b;
+            }
+            .figure__number__2 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #00ffc3;
+            }
+            .figure__number__3 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #ff0000;
+            }
+            .figure__number__4 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #ff9100;
+            }
+            .figure__number__5 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #0088ff;
+            }
+            .figure__number__6 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #a3a3a3;
+            }
+            .figure__number__7 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #870000;
+            }
+            .figure__number__8 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #4e4eed;
+            }
+            .figure__number__9 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #00a6ff;
+            }
+            .figure__p {
+                width: 100%;
+                padding-left: 1rem;
+                .figure__value {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .figure__label {
+                    opacity: .5;
+                }
+            }
+            .botton {
+                padding: 1rem;
+                text-transform: uppercase;
+            }
+        }
+        .figure__container__tres {
+            grid-area: imagedos;
+            .image__dos {
+                width: 100%;
+                height: 550px;
+            }
+            .efecto__hover {
+                width: 100%;
+                height: 200px;
+                cursor: pointer;
+                transition: 1s;
+                &:hover {
+                    background-color: rgb(17, 17, 17);
+                    color: white;
+                }
+            }
+            .figure__number {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #0000ff;
+            }
+            .figure__number__1 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #119b4b;
+            }
+            .figure__number__2 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #00ffc3;
+            }
+            .figure__number__3 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #ff0000;
+            }
+            .figure__number__4 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #ff9100;
+            }
+            .figure__number__5 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #0088ff;
+            }
+            .figure__number__6 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #a3a3a3;
+            }
+            .figure__number__7 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #870000;
+            }
+            .figure__number__8 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #4e4eed;
+            }
+            .figure__number__9 {
+                padding-left: 1rem;
+                font-size: 3rem;
+                font-weight: bold;
+                color:  #00a6ff;
+            }
+            .figure__p {
+                width: 100%;
+                padding-left: 1rem;
+                .figure__value {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .figure__label {
+                    opacity: .5;
+                }
+            }
+            .botton {
+                padding-left: 1rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .container__article {
+        width: 100%;
+        background-color: white;
+        .container__bio {
+            width: 100%;
+            height: 400px;
+            .bio__title {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #0000ff;
+            }
+            .bio__title__1 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #119b4b;
+            }
+
+            .bio__title__2 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #00ffc3;
+            }
+
+            .bio__title__3 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #E00B0B;
+            }
+
+            .bio__title__4 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #ff9100;
+            }
+
+            .bio__title__5 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #0088ff;
+            }
+
+            .bio__title__6 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #a3a3a3;
+            }
+
+            .bio__title__7 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #870000;
+            }
+
+            .bio__title__8 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #4e4eed;
+            }
+
+            .bio__title__9 {
+                padding: 1.5rem 1rem;
+                font-weight: bold;
+                font-size: 45px;
+                color: #00a6ff;
+            }
+            .intro__bio {
+                margin: 0 0 2rem 1rem;
+                font-size: 22px;
+                opacity: .8;
+            }
+            .botton__dos {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                background: rgb(1,4,82);
+                background: linear-gradient(143deg, rgba(1,4,82,1) 20%, rgba(0,7,195,1) 75%, rgba(0,1,255,1) 100%);
+                font-size: 18px;
+            }
+            .botton__dos__1 {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                background: rgb(2,103,70);
+                background: linear-gradient(143deg, rgba(2,103,70,1) 20%, rgba(0,195,121,1) 57%, rgba(0,255,132,1) 98%);
+                font-size: 18px;
+            }
+            .botton__dos__2 {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                background: rgb(2,103,93);
+                background: linear-gradient(143deg, rgba(2,103,93,1) 20%, rgba(0,195,176,1) 53%, rgba(0,255,230,1) 100%);
+                font-size: 18px;
+            }
+            .botton__dos__3 {
+                background: rgb(82,1,1);
+                background: linear-gradient(143deg, rgba(82,1,1,1) 14%, rgba(195,0,0,1) 40%, rgba(255,0,0,1) 100%);
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                font-size: 18px;
+            }
+            .botton__dos__4 {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                font-size: 18px;
+                background: rgb(134,77,1);
+                background: linear-gradient(143deg, rgba(134,77,1,1) 14%, rgba(255,124,0,1) 40%, rgba(255,111,0,1) 100%);
+            }
+            .botton__dos__5 {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                font-size: 18px;
+                background: rgb(8,40,68);
+                background: linear-gradient(143deg, rgba(8,40,68,1) 14%, rgba(0,66,124,1) 48%, rgba(0,136,255,1) 100%); 
+            }
+            .botton__dos__6 {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                font-size: 18px;
+                background: rgb(228,225,225);
+                background: linear-gradient(143deg, rgba(228,225,225,1) 14%, rgba(158,158,158,1) 48%, rgba(50,50,50,1) 100%); 
+            }
+            .botton__dos__7 {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                font-size: 18px;
+                background: rgb(52,0,0);
+                background: linear-gradient(143deg, rgba(52,0,0,1) 14%, rgba(113,0,0,1) 55%, rgba(180,0,0,1) 100%);
+                
+            }
+            .botton__dos__8 {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                font-size: 18px;
+                background: rgb(37,37,113);
+                background: linear-gradient(143deg, rgba(37,37,113,1) 14%, rgba(54,54,152,1) 55%, rgba(84,84,255,1) 100%);
+            }
+            .botton__dos__9 {
+                margin: 1rem;
+                padding: 1.2rem 1.7rem;
+                border-radius: 30px;
+                font-size: 18px;
+                background: rgb(0,52,80);
+                background: linear-gradient(143deg, rgba(0,52,80,1) 14%, rgba(0,121,186,1) 55%, rgba(0,166,255,1) 100%);
+            }
+        }
+    }
+}
