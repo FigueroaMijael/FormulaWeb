@@ -86,6 +86,8 @@
   #aside__responsive {
     width: 100%;
     display: block;
+    /* result */
+    /* teams */
   }
   #aside__responsive .container__bar {
     display: -webkit-box;
@@ -109,30 +111,22 @@
     font-size: 1rem;
     font-weight: bold;
   }
-  #aside__responsive .back {
-    width: 100%;
-    display: block;
-  }
-  #aside__responsive .back .img__left {
-    display: none;
-  }
-  .footer__container {
+  #aside__responsive .footer__container {
     margin-top: 14rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .footer__container .footer__logo {
+  #aside__responsive .footer__container .footer__logo {
     width: 100%;
   }
-  .footer__container .footer__logo .border1 {
+  #aside__responsive .footer__container .footer__logo .border1 {
     display: none;
   }
-  .footer__container .footer__logo .border2 {
+  #aside__responsive .footer__container .footer__logo .border2 {
     display: none;
   }
-  /* result */
-  .list__prin__container {
+  #aside__responsive .list__prin__container {
     width: 100%;
     max-width: 800px;
     margin: 2rem auto 2rem;
@@ -140,14 +134,13 @@
             box-shadow: 0px 15px 28px rgba(0, 0, 0, 0.1), 0px 5px 12px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
   }
-  .list__prin__container .list_container .list__subcontainer {
+  #aside__responsive .list__prin__container .list_container .list__subcontainer {
     width: 100%;
   }
-  .list__prin__container .list_container .list__subcontainer .lista__cell {
+  #aside__responsive .list__prin__container .list_container .list__subcontainer .lista__cell {
     padding: 1rem;
   }
-  /* teams */
-  .team__card__container {
+  #aside__responsive .team__card__container {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -162,15 +155,15 @@
             flex-direction: row;
     margin-bottom: 3rem;
   }
-  .team__card__container .team__card {
+  #aside__responsive .team__card__container .team__card {
     width: 423px;
     height: 300px;
     margin: 1.5rem 0;
   }
-  .container__main {
+  #aside__responsive .container__main {
     width: 100%;
   }
-  .container__main .container__content {
+  #aside__responsive .container__main .container__content {
     width: 100%;
     background-color: white;
     display: grid;
@@ -179,49 +172,49 @@
     gap: 1px;
     grid-template-areas: "imagecero imagecero" "textuno textdos" "imageuno imagedos";
   }
-  .container__main .container__content .content__text__uno {
+  #aside__responsive .container__main .container__content .content__text__uno {
     grid-area: textuno;
   }
-  .container__main .container__content .content__text__uno .text__uno {
+  #aside__responsive .container__main .container__content .content__text__uno .text__uno {
     padding-left: 1.5rem;
     font-size: 13px;
     font-weight: bold;
   }
-  .container__main .container__content .content__text__dos {
+  #aside__responsive .container__main .container__content .content__text__dos {
     grid-area: textdos;
   }
-  .container__main .container__content .content__text__dos .text__dos {
+  #aside__responsive .container__main .container__content .content__text__dos .text__dos {
     padding-left: 1.5rem;
     font-size: 12px;
     margin-top: 17px;
   }
-  .container__main .container__content .figure__container__dos {
+  #aside__responsive .container__main .container__content .figure__container__dos {
     grid-area: imageuno;
   }
-  .container__main .container__content .figure__container__dos .image__uno {
+  #aside__responsive .container__main .container__content .figure__container__dos .image__uno {
     width: 100%;
     height: 350px;
   }
-  .container__main .container__content .figure__container__dos .figure__p {
+  #aside__responsive .container__main .container__content .figure__container__dos .figure__p {
     width: 100%;
     padding-left: 1rem;
   }
-  .container__main .container__content .figure__container__dos .figure__p .figure__value {
+  #aside__responsive .container__main .container__content .figure__container__dos .figure__p .figure__value {
     font-size: 13px;
     font-weight: bold;
   }
-  .container__main .container__content .figure__container__tres {
+  #aside__responsive .container__main .container__content .figure__container__tres {
     grid-area: imagedos;
   }
-  .container__main .container__content .figure__container__tres .image__dos {
+  #aside__responsive .container__main .container__content .figure__container__tres .image__dos {
     width: 100%;
     height: 350px;
   }
-  .container__main .container__content .figure__container__tres .figure__p {
+  #aside__responsive .container__main .container__content .figure__container__tres .figure__p {
     width: 100%;
     padding-left: 1rem;
   }
-  .container__main .container__content .figure__container__tres .figure__p .figure__value {
+  #aside__responsive .container__main .container__content .figure__container__tres .figure__p .figure__value {
     font-size: 13px;
     font-weight: bold;
   }
@@ -237,6 +230,13 @@
     grid-template-rows: auto;
     gap: 1px;
     grid-template-areas: "ImagenUno ImagenUno" "description description" "ImagenDos ImagenTres" "title title";
+  }
+  .back {
+    width: 100%;
+    display: block;
+  }
+  .back .img__left {
+    display: none;
   }
 }
 /* ---------- TABLET ----------  */

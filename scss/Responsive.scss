@@ -91,15 +91,6 @@
         }
     }
 
-    .back {
-        width: 100%;
-        display: block;
-        .img__left {
-            display: none;
-        }
-    }
-}
-
 .footer__container {
     margin-top: 14rem;
     display: flex;
@@ -207,12 +198,12 @@
                     .figure__value {
                         font-size: 13px;
                         font-weight: bold;
+                        }
                     }
                 }
             }
         }
     }
-
     /* pilotos */
 
     .container__main__pilotos {
@@ -229,6 +220,14 @@
             "description description"
             "ImagenDos ImagenTres"
             "title title";
+        }
+    }
+
+    .back {
+        width: 100%;
+        display: block;
+        .img__left {
+            display: none;
         }
     }
 }

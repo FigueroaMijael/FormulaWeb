@@ -4,8 +4,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 52% 1% 47%;
-  grid-template-rows: -webkit-min-content;
-  grid-template-rows: min-content;
+  grid-template-rows: auto;
   grid-template-areas: "img ... form ";
 }
 
@@ -17,9 +16,11 @@
   height: 100vh;
 }
 
+.login {
+  grid-area: form;
+}
 .login .formulario-login {
-  height: 100vh;
-  width: 70%;
+  width: 100%;
   margin: auto;
   padding: 20px 30px;
 }
