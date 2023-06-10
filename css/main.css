@@ -1839,8 +1839,6 @@ li {
   #aside__responsive {
     width: 100%;
     display: block;
-    /* result */
-    /* teams */
   }
   #aside__responsive .container__bar {
     display: -webkit-box;
@@ -1864,22 +1862,22 @@ li {
     font-size: 1rem;
     font-weight: bold;
   }
-  #aside__responsive .footer__container {
+  .footer__container {
     margin-top: 14rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  #aside__responsive .footer__container .footer__logo {
+  .footer__container .footer__logo {
     width: 100%;
   }
-  #aside__responsive .footer__container .footer__logo .border1 {
+  .footer__container .footer__logo .border1 {
     display: none;
   }
-  #aside__responsive .footer__container .footer__logo .border2 {
+  .footer__container .footer__logo .border2 {
     display: none;
   }
-  #aside__responsive .list__prin__container {
+  .list__prin__container {
     width: 100%;
     max-width: 800px;
     margin: 2rem auto 2rem;
@@ -1887,13 +1885,13 @@ li {
             box-shadow: 0px 15px 28px rgba(0, 0, 0, 0.1), 0px 5px 12px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
   }
-  #aside__responsive .list__prin__container .list_container .list__subcontainer {
+  .list__prin__container .list_container .list__subcontainer {
     width: 100%;
   }
-  #aside__responsive .list__prin__container .list_container .list__subcontainer .lista__cell {
+  .list__prin__container .list_container .list__subcontainer .lista__cell {
     padding: 1rem;
   }
-  #aside__responsive .team__card__container {
+  .team__card__container {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1908,15 +1906,15 @@ li {
             flex-direction: row;
     margin-bottom: 3rem;
   }
-  #aside__responsive .team__card__container .team__card {
+  .team__card__container .team__card {
     width: 423px;
     height: 300px;
     margin: 1.5rem 0;
   }
-  #aside__responsive .container__main {
+  .container__main {
     width: 100%;
   }
-  #aside__responsive .container__main .container__content {
+  .container__main .container__content {
     width: 100%;
     background-color: white;
     display: grid;
@@ -1925,53 +1923,52 @@ li {
     gap: 1px;
     grid-template-areas: "imagecero imagecero" "textuno textdos" "imageuno imagedos";
   }
-  #aside__responsive .container__main .container__content .content__text__uno {
+  .container__main .container__content .content__text__uno {
     grid-area: textuno;
   }
-  #aside__responsive .container__main .container__content .content__text__uno .text__uno {
+  .container__main .container__content .content__text__uno .text__uno {
     padding-left: 1.5rem;
     font-size: 13px;
     font-weight: bold;
   }
-  #aside__responsive .container__main .container__content .content__text__dos {
+  .container__main .container__content .content__text__dos {
     grid-area: textdos;
   }
-  #aside__responsive .container__main .container__content .content__text__dos .text__dos {
+  .container__main .container__content .content__text__dos .text__dos {
     padding-left: 1.5rem;
     font-size: 12px;
     margin-top: 17px;
   }
-  #aside__responsive .container__main .container__content .figure__container__dos {
+  .container__main .container__content .figure__container__dos {
     grid-area: imageuno;
   }
-  #aside__responsive .container__main .container__content .figure__container__dos .image__uno {
+  .container__main .container__content .figure__container__dos .image__uno {
     width: 100%;
     height: 350px;
   }
-  #aside__responsive .container__main .container__content .figure__container__dos .figure__p {
+  .container__main .container__content .figure__container__dos .figure__p {
     width: 100%;
     padding-left: 1rem;
   }
-  #aside__responsive .container__main .container__content .figure__container__dos .figure__p .figure__value {
+  .container__main .container__content .figure__container__dos .figure__p .figure__value {
     font-size: 13px;
     font-weight: bold;
   }
-  #aside__responsive .container__main .container__content .figure__container__tres {
+  .container__main .container__content .figure__container__tres {
     grid-area: imagedos;
   }
-  #aside__responsive .container__main .container__content .figure__container__tres .image__dos {
+  .container__main .container__content .figure__container__tres .image__dos {
     width: 100%;
     height: 350px;
   }
-  #aside__responsive .container__main .container__content .figure__container__tres .figure__p {
+  .container__main .container__content .figure__container__tres .figure__p {
     width: 100%;
     padding-left: 1rem;
   }
-  #aside__responsive .container__main .container__content .figure__container__tres .figure__p .figure__value {
+  .container__main .container__content .figure__container__tres .figure__p .figure__value {
     font-size: 13px;
     font-weight: bold;
   }
-  /* pilotos */
   .container__main__pilotos {
     width: 100%;
   }

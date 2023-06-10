@@ -88,8 +88,9 @@
             text-align: center;
             font-size: 1rem;
             font-weight: bold;
-        }
+        }     
     }
+}
 
 .footer__container {
     margin-top: 14rem;
@@ -104,9 +105,6 @@
         }
     }
 }
-
-/* result */
-
 .list__prin__container {
     width: 100%;
     max-width: 800px;
@@ -122,8 +120,6 @@
         }
     }
 }
-
-/* teams */
 
 .team__card__container {
     width: 100%;
@@ -152,59 +148,56 @@
         "imagecero imagecero"
         "textuno textdos"
         "imageuno imagedos";
-
-            .content__text__uno {
-                grid-area: textuno;
-                .text__uno {
-                    padding-left: 1.5rem;
+        .content__text__uno {
+            grid-area: textuno;
+            .text__uno {
+                padding-left: 1.5rem;
+                font-size: 13px;
+                font-weight: bold;
+            }
+        }
+        .content__text__dos {
+            grid-area: textdos;
+            .text__dos {
+                padding-left: 1.5rem;
+                font-size: 12px;
+                margin-top: 17px;
+            }
+        }
+        .figure__container__dos {
+            grid-area: imageuno;
+            .image__uno {
+                width: 100%;
+                height: 350px;
+            }
+            .figure__p {
+                width: 100%;
+                padding-left: 1rem;
+                .figure__value {
                     font-size: 13px;
                     font-weight: bold;
-                }
-            }
-            .content__text__dos {
-                grid-area: textdos;
-                .text__dos {
-                    padding-left: 1.5rem;
-                    font-size: 12px;
-                    margin-top: 17px;
-                }
-            }
-
-            .figure__container__dos {
-                grid-area: imageuno;
-                .image__uno {
-                    width: 100%;
-                    height: 350px;
-                }
-                .figure__p {
-                    width: 100%;
-                    padding-left: 1rem;
-                    .figure__value {
-                        font-size:  13px;
-                        font-weight: bold;
                     }
                 }
-            } 
-            
-            .figure__container__tres {
-                grid-area: imagedos;
-                .image__dos {
-                    width: 100%;
-                    height: 350px;
-                }
-                .figure__p {
-                    width: 100%;
-                    padding-left: 1rem;
-                    .figure__value {
-                        font-size: 13px;
-                        font-weight: bold;
-                        }
+        }
+        
+        .figure__container__tres {
+            grid-area: imagedos;
+            .image__dos {
+                width: 100%;
+                height: 350px;
+                
+            }
+            .figure__p {
+                width: 100%;
+                padding-left: 1rem;
+                .figure__value {
+                    font-size: 13px;
+                    font-weight: bold;
                     }
                 }
             }
         }
     }
-    /* pilotos */
 
     .container__main__pilotos {
         width: 100%;
