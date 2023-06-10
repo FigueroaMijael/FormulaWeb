@@ -1,0 +1,364 @@
+.container__main__pilotos {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 40px;
+}
+.container__main__pilotos .container__pilotos {
+  width: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-rows: auto;
+  gap: 1px;
+  grid-template-areas: "ImagenUno ImagenDos ImagenTres" "ImagenUno title title" "description TextoUno TextoDos";
+}
+.container__main__pilotos .container__pilotos .container__imagen__uno {
+  grid-area: ImagenUno;
+}
+.container__main__pilotos .container__pilotos .container__imagen__uno .imagen__uno {
+  width: 100%;
+  height: 625px;
+}
+.container__main__pilotos .container__pilotos .content__description {
+  grid-area: description;
+}
+.container__main__pilotos .container__pilotos .content__description .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0000ff;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero1 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #119b4b;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero2 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #00ffc3;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero3 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ff0000;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero4 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0088ff;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero5 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ff9100;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero6 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #a3a3a3;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero7 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #870000;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero8 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #4e4eed;
+}
+.container__main__pilotos .container__pilotos .content__description .description .numero9 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #00a6ff;
+}
+.container__main__pilotos .container__pilotos .content__description .description .nombre {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .content__description .description .image__bandera {
+  border-radius: 15px;
+}
+.container__main__pilotos .container__pilotos .content__description .description .image__banderas {
+  width: 90px;
+  height: 60px;
+  border-radius: 15px;
+}
+.container__main__pilotos .container__pilotos .container__imagen__dos {
+  grid-area: ImagenDos;
+}
+.container__main__pilotos .container__pilotos .container__imagen__dos .imagen__dos {
+  width: 100%;
+  max-width: 250px;
+  height: 200px;
+}
+.container__main__pilotos .container__pilotos .container__imagen__tres {
+  grid-area: ImagenTres;
+}
+.container__main__pilotos .container__pilotos .container__imagen__tres .imagen__tres {
+  width: 100%;
+  height: 200px;
+}
+.container__main__pilotos .container__pilotos .conatiner__title {
+  grid-area: title;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title {
+  text-align: center;
+  color: #0000ff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__1 {
+  text-align: center;
+  color: #119b4b;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__2 {
+  text-align: center;
+  color: #00ffc3;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__3 {
+  text-align: center;
+  color: #ff0000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__4 {
+  text-align: center;
+  color: #ff9100;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__5 {
+  text-align: center;
+  color: #0088ff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__6 {
+  text-align: center;
+  color: #a3a3a3;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__7 {
+  text-align: center;
+  color: #870000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__8 {
+  text-align: center;
+  color: #4e4eed;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .conatiner__title .figure__title__9 {
+  text-align: center;
+  color: #00a6ff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .content__text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container__main__pilotos .container__pilotos .content__text .content__text__uno {
+  width: 100%;
+}
+.container__main__pilotos .container__pilotos .content__text .content__text__uno .text__uno {
+  padding-left: 1.5rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+.container__main__pilotos .container__pilotos .content__text .content__text__dos {
+  width: 100%;
+}
+.container__main__pilotos .container__pilotos .content__text .content__text__dos .text__dos {
+  padding-left: 1.5rem;
+  font-size: 15px;
+}
+.container__main__pilotos .container__article {
+  width: 100%;
+  background-color: white;
+}
+.container__main__pilotos .container__article .container__bio {
+  width: 100%;
+  height: 400px;
+}
+.container__main__pilotos .container__article .container__bio .bio__title {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #0000ff;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__1 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #119b4b;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__2 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #00ffc3;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__3 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #E00B0B;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__4 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ff9100;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__5 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #0088ff;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__6 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #a3a3a3;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__7 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #870000;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__8 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #4e4eed;
+}
+.container__main__pilotos .container__article .container__bio .bio__title__9 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #00a6ff;
+}
+.container__main__pilotos .container__article .container__bio .intro__bio {
+  margin: 0 0 2rem 1rem;
+  font-size: 22px;
+  opacity: 0.8;
+}
+.container__main__pilotos .container__article .container__bio .botton__dos {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  background: rgb(1, 4, 82);
+  background: linear-gradient(143deg, rgb(1, 4, 82) 20%, rgb(0, 7, 195) 75%, rgb(0, 1, 255) 100%);
+  font-size: 18px;
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__1 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  background: rgb(2, 103, 70);
+  background: linear-gradient(143deg, rgb(2, 103, 70) 20%, rgb(0, 195, 121) 57%, rgb(0, 255, 132) 98%);
+  font-size: 18px;
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__2 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  background: rgb(2, 103, 93);
+  background: linear-gradient(143deg, rgb(2, 103, 93) 20%, rgb(0, 195, 176) 53%, rgb(0, 255, 230) 100%);
+  font-size: 18px;
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__3 {
+  background: rgb(82, 1, 1);
+  background: linear-gradient(143deg, rgb(82, 1, 1) 14%, rgb(195, 0, 0) 40%, rgb(255, 0, 0) 100%);
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__4 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(134, 77, 1);
+  background: linear-gradient(143deg, rgb(134, 77, 1) 14%, rgb(255, 124, 0) 40%, rgb(255, 111, 0) 100%);
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__5 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(8, 40, 68);
+  background: linear-gradient(143deg, rgb(8, 40, 68) 14%, rgb(0, 66, 124) 48%, rgb(0, 136, 255) 100%);
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__6 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(228, 225, 225);
+  background: linear-gradient(143deg, rgb(228, 225, 225) 14%, rgb(158, 158, 158) 48%, rgb(50, 50, 50) 100%);
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__7 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(52, 0, 0);
+  background: linear-gradient(143deg, rgb(52, 0, 0) 14%, rgb(113, 0, 0) 55%, rgb(180, 0, 0) 100%);
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__8 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(37, 37, 113);
+  background: linear-gradient(143deg, rgb(37, 37, 113) 14%, rgb(54, 54, 152) 55%, rgb(84, 84, 255) 100%);
+}
+.container__main__pilotos .container__article .container__bio .botton__dos__9 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(0, 52, 80);
+  background: linear-gradient(143deg, rgb(0, 52, 80) 14%, rgb(0, 121, 186) 55%, rgb(0, 166, 255) 100%);
+}

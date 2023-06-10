@@ -1,5 +1,5 @@
 /* ---------- MOBILE ----------  */
-@media screen and (min-width:425px) and (max-width: 500px){
+@media screen and (min-width:425px) and (max-width: 550px){
     .container__topbar {
         display: none;
     }
@@ -23,15 +23,16 @@
     }
 
     .container__topbar__responsive .iconos {
-        margin: 0 .7rem;
-        font-size: 1.2rem;
+        margin: 0 .6rem;
+        font-size: 1.1rem;
         cursor: pointer;
     }
 
     .container__topbar__responsive .text {
         color: whitesmoke;
+        justify-content: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 40px;
+        font-size: 35px;
         text-transform: uppercase;
         font-weight: 800; 
         text-shadow: 2px 5px #DC0000;
@@ -98,6 +99,7 @@
 }
 
 .footer__container {
+    margin-top: 14rem;
     display: flex;
     .footer__logo {
         width: 100%;
@@ -109,12 +111,107 @@
         }
     }
 }
+.list__prin__container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto 2rem;
+    box-shadow: 0px 15px 28px rgba(0, 0, 0, 0.1), 0px 5px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 5px ;
+    .list_container{
+        .list__subcontainer{
+            width: 100%;
+            .lista__cell {
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+.team__card__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    .team__card {
+        width: 423px;
+        height: 300px;
+        margin: 1.5rem 0;
+    }
+}
+
+.container__main {
+    width: 100%;
+    .container__content {
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        gap: 1px;
+        grid-template-areas: 
+        "imagecero imagecero"
+        "textuno textdos"
+        "imageuno imagedos";
+
+            .content__text__uno {
+                grid-area: textuno;
+                .text__uno {
+                    padding-left: 1.5rem;
+                    font-size: 13px;
+                    font-weight: bold;
+                }
+            }
+            .content__text__dos {
+                grid-area: textdos;
+                .text__dos {
+                    padding-left: 1.5rem;
+                    font-size: 12px;
+                    margin-top: 17px;
+                }
+            }
+
+            .figure__container__dos {
+                grid-area: imageuno;
+                .image__uno {
+                    width: 100%;
+                    height: 350px;
+                }
+                .figure__p {
+                    width: 100%;
+                    padding-left: 1rem;
+                    .figure__value {
+                        font-size:  13px;
+                        font-weight: bold;
+                    }
+                }
+            } 
+            
+            .figure__container__tres {
+                grid-area: imagedos;
+                .image__dos {
+                    width: 100%;
+                    height: 350px;
+                }
+                .figure__p {
+                    width: 100%;
+                    padding-left: 1rem;
+                    .figure__value {
+                        font-size: 13px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
 
+
 /* ---------- TABLET ----------  */
-@media screen and (min-width: 501px) and (max-width: 980px) {
+@media screen and (min-width: 551px) and (max-width: 980px) {
     .container__topbar {
         display: none;
     }
@@ -213,6 +310,7 @@
 }
 
 .footer__container {
+    margin-top: 10rem;
     display: flex;
     .footer__logo {
         width: 100%;
@@ -226,6 +324,74 @@
         }
     }
 }
+
+.team__card__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    .team__card {
+        width: 536px;
+        height: 300px;
+        margin: 1.5rem 0;
+    }
+}
+
+.container__main {
+    width: 100%;
+    .container__content {
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        gap: 1px;
+        grid-template-areas: 
+        "imagecero imagecero"
+        "textuno textdos"
+        "imageuno imagedos";
+
+        .figure__container__uno {
+            grid-area: imagecero;
+            width: 100%;
+            height: min-content;
+            }
+
+            .figure__container__dos {
+                grid-area: imageuno;
+                .image__uno {
+                    width: 100%;
+                    height: 450px;
+                }
+                .figure__p {
+                    width: 100%;
+                    padding-left: 1rem;
+                    .figure__value {
+                        font-size:  15px;
+                        font-weight: bold;
+                    }
+                }
+            } 
+            
+            .figure__container__tres {
+                grid-area: imagedos;
+                .image__dos {
+                    width: 100%;
+                    height: 450px;
+                }
+                .figure__p {
+                    width: 100%;
+                    padding-left: 1rem;
+                    .figure__value {
+                        font-size:  15px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
 }
 
 

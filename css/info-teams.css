@@ -14,16 +14,13 @@
 }
 .container__main .container__content .figure__container__uno {
   grid-area: imagecero;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
+  width: 100%;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
 }
 .container__main .container__content .figure__container__uno .image__cero {
-  width: 100vh;
-  max-width: 520px;
+  width: 100%;
   height: 300px;
 }
 .container__main .container__content .figure__container__uno .figure__title {
@@ -96,9 +93,9 @@
 }
 .container__main .container__content .content__text__dos {
   grid-area: textdos;
-  padding-left: 1.5rem;
 }
 .container__main .container__content .content__text__dos .text__dos {
+  padding-left: 1.5rem;
   font-size: 15px;
   margin-top: 20px;
 }

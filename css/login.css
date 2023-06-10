@@ -58,9 +58,9 @@
   margin-bottom: 19px;
   cursor: pointer;
 }
-.login p {
+.login .p__login {
   margin-bottom: 5px;
 }
-.login p .questions {
+.login .p__login .questions {
   color: #E00B0B;
 }

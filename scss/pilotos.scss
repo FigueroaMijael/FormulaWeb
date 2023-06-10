@@ -41,6 +41,130 @@
                 border-bottom: 3px solid #0000ff;
             }
         }
+        .animation2 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #119b4b  ;
+                border-right: 3px solid  #119b4b ;
+                border-bottom: 3px solid #119b4b ;
+            }
+        }
+        .animation3 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #00ffc3 ;
+                border-right: 3px solid  #00ffc3 ;
+                border-bottom: 3px solid #00ffc3 ;
+            }
+        }
+        .animation4 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #ff0000 ;
+                border-right: 3px solid  #ff0000 ;
+                border-bottom: 3px solid #ff0000 ;
+            }
+        }
+
+        .animation5 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #ff9100 ;
+                border-right: 3px solid  #ff9100 ;
+                border-bottom: 3px solid #ff9100 ;
+            }
+        }
+
+        .animation6 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #0088ff ;
+                border-right: 3px solid  #0088ff;
+                border-bottom: 3px solid #0088ff ;
+            }
+        }
+
+        .animation7 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #a3a3a3 ;
+                border-right: 3px solid  #a3a3a3;
+                border-bottom: 3px solid #a3a3a3 ;
+            }
+        }
+
+        .animation8 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #870000;
+                border-right: 3px solid  #870000;
+                border-bottom: 3px solid #870000 ;
+            }
+        }
+
+        .animation9 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #4e4eed;
+                border-right: 3px solid  #4e4eed;
+                border-bottom: 3px solid #4e4eed ;
+            }
+        }
+
+        .animation10 {
+            border-radius: 10px;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            transition: 1.5s;
+            cursor: pointer;
+            &:hover {
+                border-top: 3px solid #00a6ff;
+                border-right: 3px solid  #00a6ff;
+                border-bottom: 3px solid #00a6ff ;
+            }
+        }
+
 
         .card__numero {
             width: 100%;
@@ -84,6 +208,64 @@
             color: black;
             border-left: 6px solid #0000ff;
         }
+        .piloto__name2 {
+             margin: 1rem 1rem;
+            padding: 0 1rem;
+            color: black;
+            border-left: 6px solid #119b4b;
+        }
+        .piloto__name3 {
+             margin: 1rem 1rem;
+            padding: 0 1rem;
+            color: black;
+            border-left: 6px solid #00ffc3;
+        }
+        .piloto__name4 {
+             margin: 1rem 1rem;
+            padding: 0 1rem;
+            color: black;
+            border-left: 6px solid #ff0000;
+        }
+
+        .piloto__name5 {
+            margin: 1rem 1rem;
+           padding: 0 1rem;
+           color: black;
+           border-left: 6px solid #ff9100;
+       }
+       .piloto__name6 {
+         margin: 1rem 1rem;
+         padding: 0 1rem;
+         color: black;
+         border-left: 6px solid #0088ff ;
+       }
+       .piloto__name7 {
+        margin: 1rem 1rem;
+        padding: 0 1rem;
+        color: black;
+        border-left: 6px solid #a3a3a3 ;
+      }
+
+      .piloto__name8 {
+        margin: 1rem 1rem;
+        padding: 0 1rem;
+        color: black;
+        border-left: 6px solid #870000 ;
+      }
+
+      .piloto__name9 {
+        margin: 1rem 1rem;
+        padding: 0 1rem;
+        color: black;
+        border-left: 6px solid #4e4eed ;
+      }
+
+      .piloto__name10 {
+        margin: 1rem 1rem;
+        padding: 0 1rem;
+        color: black;
+        border-left: 6px solid #00a6ff ;
+      }
     }
 
     .name__team {

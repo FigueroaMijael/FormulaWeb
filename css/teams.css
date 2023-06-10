@@ -3,7 +3,7 @@
 }
 .team__container .team__title {
   padding: 2rem;
-  margin: 2rem 1rem;
+  margin: 2rem 0;
   border-top: 0.6rem solid black;
   border-right: 0.6rem solid black;
   border-radius: 15px;
