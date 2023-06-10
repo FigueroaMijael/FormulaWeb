@@ -1,7 +1,7 @@
 .container__main__pilotos {
   width: 100%;
   background-color: whitesmoke;
-  padding: 40px;
+  padding: 40px 40px 0px 40px;
 }
 .container__main__pilotos .container__pilotos {
   width: 100%;

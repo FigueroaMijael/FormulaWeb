@@ -495,7 +495,7 @@ li {
 .container__main__pilotos {
   width: 100%;
   background-color: whitesmoke;
-  padding: 40px;
+  padding: 40px 40px 0px 40px;
 }
 .container__main__pilotos .container__pilotos {
   width: 100%;
@@ -1755,6 +1755,7 @@ li {
 
 /* ---------- MOBILE ----------  */
 @media screen and (min-width: 425px) and (max-width: 550px) {
+  /* Index */
   .container__topbar {
     display: none;
   }
@@ -1790,6 +1791,9 @@ li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-family: "Poppins", sans-serif;
     font-size: 35px;
     text-transform: uppercase;
@@ -1882,6 +1886,7 @@ li {
   .footer__container .footer__logo .border2 {
     display: none;
   }
+  /* result */
   .list__prin__container {
     width: 100%;
     max-width: 800px;
@@ -1896,6 +1901,7 @@ li {
   .list__prin__container .list_container .list__subcontainer .lista__cell {
     padding: 1rem;
   }
+  /* teams */
   .team__card__container {
     width: 100%;
     display: -webkit-box;
@@ -1973,6 +1979,19 @@ li {
   .container__main .container__content .figure__container__tres .figure__p .figure__value {
     font-size: 13px;
     font-weight: bold;
+  }
+  /* pilotos */
+  .container__main__pilotos {
+    width: 100%;
+  }
+  .container__main__pilotos .container__pilotos {
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 1px;
+    grid-template-areas: "ImagenUno ImagenUno" "description description" "ImagenDos ImagenTres" "title title";
   }
 }
 /* ---------- TABLET ----------  */
@@ -2170,6 +2189,19 @@ li {
   .container__main .container__content .figure__container__tres .figure__p .figure__value {
     font-size: 15px;
     font-weight: bold;
+  }
+  /* pilotos */
+  .container__main__pilotos {
+    width: 100%;
+  }
+  .container__main__pilotos .container__pilotos {
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 1px;
+    grid-template-areas: "ImagenUno ImagenUno" "description description" "ImagenDos ImagenTres" "title title";
   }
 }
 /* ---------- DESKTOP ----------  */
@@ -2372,7 +2404,7 @@ li {
   width: 100%;
 }
 .total__container .card__title__dos {
-  margin: 2rem 1rem 0;
+  margin: 2rem 1rem;
   color: #E00B0B;
   font-weight: bold;
   text-align: center;
