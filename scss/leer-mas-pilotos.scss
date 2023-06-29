@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#biografia {
+    background-color: whitesmoke;
+    position: relative;
+    min-width: 100vh;
+}
+
+.complete__biografia {
+    margin: 1.5rem;
+    background-color: white;
+    padding: 2rem;
+    .bio__title_ {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #0000ff;
+    }
+    .bio__title__1 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #119b4b;
+    }
+
+    .bio__title__2 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #00ffc3;
+    }
+
+    .bio__title__3 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #E00B0B;
+    }
+
+    .bio__title__4 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #ff9100;
+    }
+
+    .bio__title__5 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #0088ff;
+    }
+
+    .bio__title__6 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #a3a3a3;
+    }
+
+    .bio__title__7 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #870000;
+    }
+
+    .bio__title__8 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #4e4eed;
+    }
+
+    .bio__title__9 {
+        padding: 1.5rem 1rem;
+        font-weight: bold;
+        font-size: 45px;
+        color: #00a6ff;
+    }
+    .intro__bio {
+        margin: 0 0 2rem 1rem;
+        font-size: 22px;
+        opacity: .8;
+    }
+    .botton__dos_ {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        background: rgb(1,4,82);
+        background: linear-gradient(143deg, rgba(1,4,82,1) 20%, rgba(0,7,195,1) 75%, rgba(0,1,255,1) 100%);
+        font-size: 18px;
+    }
+    .botton__dos__1 {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        background: rgb(2,103,70);
+        background: linear-gradient(143deg, rgba(2,103,70,1) 20%, rgba(0,195,121,1) 57%, rgba(0,255,132,1) 98%);
+        font-size: 18px;
+    }
+    .botton__dos__2 {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        background: rgb(2,103,93);
+        background: linear-gradient(143deg, rgba(2,103,93,1) 20%, rgba(0,195,176,1) 53%, rgba(0,255,230,1) 100%);
+        font-size: 18px;
+    }
+    .botton__dos__3 {
+        background: rgb(82,1,1);
+        background: linear-gradient(143deg, rgba(82,1,1,1) 14%, rgba(195,0,0,1) 40%, rgba(255,0,0,1) 100%);
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        font-size: 18px;
+    }
+    .botton__dos__4 {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        font-size: 18px;
+        background: rgb(134,77,1);
+        background: linear-gradient(143deg, rgba(134,77,1,1) 14%, rgba(255,124,0,1) 40%, rgba(255,111,0,1) 100%);
+    }
+    .botton__dos__5 {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        font-size: 18px;
+        background: rgb(8,40,68);
+        background: linear-gradient(143deg, rgba(8,40,68,1) 14%, rgba(0,66,124,1) 48%, rgba(0,136,255,1) 100%); 
+    }
+    .botton__dos__6 {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        font-size: 18px;
+        background: rgb(228,225,225);
+        background: linear-gradient(143deg, rgba(228,225,225,1) 14%, rgba(158,158,158,1) 48%, rgba(50,50,50,1) 100%); 
+    }
+    .botton__dos__7 {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        font-size: 18px;
+        background: rgb(52,0,0);
+        background: linear-gradient(143deg, rgba(52,0,0,1) 14%, rgba(113,0,0,1) 55%, rgba(180,0,0,1) 100%);
+        
+    }
+    .botton__dos__8 {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        font-size: 18px;
+        background: rgb(37,37,113);
+        background: linear-gradient(143deg, rgba(37,37,113,1) 14%, rgba(54,54,152,1) 55%, rgba(84,84,255,1) 100%);
+    }
+    .botton__dos__9 {
+        margin: 1rem;
+        padding: 1.2rem 1.7rem;
+        border-radius: 30px;
+        font-size: 18px;
+        background: rgb(0,52,80);
+        background: linear-gradient(143deg, rgba(0,52,80,1) 14%, rgba(0,121,186,1) 55%, rgba(0,166,255,1) 100%);
+    }
+}

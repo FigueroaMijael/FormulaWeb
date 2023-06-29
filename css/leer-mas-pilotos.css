@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#biografia {
+  background-color: whitesmoke;
+  position: relative;
+  min-width: 100vh;
+}
+
+.complete__biografia {
+  margin: 1.5rem;
+  background-color: white;
+  padding: 2rem;
+}
+.complete__biografia .bio__title_ {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #0000ff;
+}
+.complete__biografia .bio__title__1 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #119b4b;
+}
+.complete__biografia .bio__title__2 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #00ffc3;
+}
+.complete__biografia .bio__title__3 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #E00B0B;
+}
+.complete__biografia .bio__title__4 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ff9100;
+}
+.complete__biografia .bio__title__5 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #0088ff;
+}
+.complete__biografia .bio__title__6 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #a3a3a3;
+}
+.complete__biografia .bio__title__7 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #870000;
+}
+.complete__biografia .bio__title__8 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #4e4eed;
+}
+.complete__biografia .bio__title__9 {
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 45px;
+  color: #00a6ff;
+}
+.complete__biografia .intro__bio {
+  margin: 0 0 2rem 1rem;
+  font-size: 22px;
+  opacity: 0.8;
+}
+.complete__biografia .botton__dos_ {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  background: rgb(1, 4, 82);
+  background: linear-gradient(143deg, rgb(1, 4, 82) 20%, rgb(0, 7, 195) 75%, rgb(0, 1, 255) 100%);
+  font-size: 18px;
+}
+.complete__biografia .botton__dos__1 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  background: rgb(2, 103, 70);
+  background: linear-gradient(143deg, rgb(2, 103, 70) 20%, rgb(0, 195, 121) 57%, rgb(0, 255, 132) 98%);
+  font-size: 18px;
+}
+.complete__biografia .botton__dos__2 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  background: rgb(2, 103, 93);
+  background: linear-gradient(143deg, rgb(2, 103, 93) 20%, rgb(0, 195, 176) 53%, rgb(0, 255, 230) 100%);
+  font-size: 18px;
+}
+.complete__biografia .botton__dos__3 {
+  background: rgb(82, 1, 1);
+  background: linear-gradient(143deg, rgb(82, 1, 1) 14%, rgb(195, 0, 0) 40%, rgb(255, 0, 0) 100%);
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.complete__biografia .botton__dos__4 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(134, 77, 1);
+  background: linear-gradient(143deg, rgb(134, 77, 1) 14%, rgb(255, 124, 0) 40%, rgb(255, 111, 0) 100%);
+}
+.complete__biografia .botton__dos__5 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(8, 40, 68);
+  background: linear-gradient(143deg, rgb(8, 40, 68) 14%, rgb(0, 66, 124) 48%, rgb(0, 136, 255) 100%);
+}
+.complete__biografia .botton__dos__6 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(228, 225, 225);
+  background: linear-gradient(143deg, rgb(228, 225, 225) 14%, rgb(158, 158, 158) 48%, rgb(50, 50, 50) 100%);
+}
+.complete__biografia .botton__dos__7 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(52, 0, 0);
+  background: linear-gradient(143deg, rgb(52, 0, 0) 14%, rgb(113, 0, 0) 55%, rgb(180, 0, 0) 100%);
+}
+.complete__biografia .botton__dos__8 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(37, 37, 113);
+  background: linear-gradient(143deg, rgb(37, 37, 113) 14%, rgb(54, 54, 152) 55%, rgb(84, 84, 255) 100%);
+}
+.complete__biografia .botton__dos__9 {
+  margin: 1rem;
+  padding: 1.2rem 1.7rem;
+  border-radius: 30px;
+  font-size: 18px;
+  background: rgb(0, 52, 80);
+  background: linear-gradient(143deg, rgb(0, 52, 80) 14%, rgb(0, 121, 186) 55%, rgb(0, 166, 255) 100%);
+}
